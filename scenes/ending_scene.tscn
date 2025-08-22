@@ -1,0 +1,57 @@
+[gd_scene load_steps=8 format=3 uid="uid://dn00i3a7k86jr"]
+
+[ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="1_0vjt2"]
+[ext_resource type="Texture2D" uid="uid://d4ihx5ipoxgtg" path="res://imgs/backgrounds/intro screen.jpeg" id="1_5gtp6"]
+[ext_resource type="Script" uid="uid://dijw8tmrl0wg7" path="res://Scripts/ending_scene.gd" id="1_i70nl"]
+[ext_resource type="PackedScene" uid="uid://bpf4pf2hlwx73" path="res://scenes/skip_to_scene.tscn" id="3_u14vp"]
+[ext_resource type="Texture2D" uid="uid://hjfx7rpleswd" path="res://imgs/buttons/pink long.png" id="4_agp5w"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_5gtp6"]
+font = ExtResource("1_0vjt2")
+font_size = 48
+
+[sub_resource type="LabelSettings" id="LabelSettings_i70nl"]
+font = ExtResource("1_0vjt2")
+font_size = 42
+font_color = Color(0.956863, 0.670588, 0.670588, 1)
+
+[node name="ending scene" type="Node2D"]
+script = ExtResource("1_i70nl")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1156.0
+offset_bottom = 649.0
+texture = ExtResource("1_5gtp6")
+
+[node name="congrats" type="Label" parent="."]
+offset_left = 88.0
+offset_top = 227.0
+offset_right = 1073.0
+offset_bottom = 377.0
+text = "Congrats! 
+Princess Selene and the queen now live happily ever after."
+label_settings = SubResource("LabelSettings_5gtp6")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="skip to scene" parent="." instance=ExtResource("3_u14vp")]
+
+[node name="credits" type="TextureButton" parent="."]
+offset_left = 887.0
+offset_top = 485.0
+offset_right = 1117.0
+offset_bottom = 584.0
+texture_normal = ExtResource("4_agp5w")
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="credits"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 27.0
+offset_right = 239.0
+offset_bottom = 75.0
+text = "Credits"
+label_settings = SubResource("LabelSettings_i70nl")
+
+[connection signal="pressed" from="credits" to="." method="_on_credits_pressed"]

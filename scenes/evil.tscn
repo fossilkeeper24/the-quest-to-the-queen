@@ -1,0 +1,71 @@
+[gd_scene load_steps=8 format=3 uid="uid://ltt5sytxlwk4"]
+
+[ext_resource type="Script" uid="uid://f64hpjn6v6wi" path="res://Scripts/witch.gd" id="1_y7s5p"]
+[ext_resource type="Texture2D" uid="uid://cq71q8tgu7uxr" path="res://imgs/characters/withc_but_small.png" id="2_3ate8"]
+[ext_resource type="Texture2D" uid="uid://dx2k48p0dnbpa" path="res://imgs/characters/witch.png" id="3_l7c6x"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b1vsk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_3ate8")
+}],
+"loop": true,
+"name": &"attack_witch",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_3ate8")
+}],
+"loop": true,
+"name": &"idle_witch",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_l7c6x")
+}],
+"loop": true,
+"name": &"vn_witch",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_p6b3e"]
+radius = 102.005
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_b1vsk"]
+radius = 17.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3ate8"]
+
+[node name="witch" type="CharacterBody2D"]
+y_sort_enabled = true
+script = ExtResource("1_y7s5p")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1, 14)
+sprite_frames = SubResource("SpriteFrames_b1vsk")
+animation = &"attack_witch"
+offset = Vector2(0, -16)
+
+[node name="detection_area" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
+shape = SubResource("CircleShape2D_p6b3e")
+
+[node name="steal_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="steal_area"]
+position = Vector2(1, 8)
+shape = SubResource("CircleShape2D_b1vsk")
+
+[node name="real" type="CollisionShape2D" parent="."]
+position = Vector2(1, 8)
+shape = SubResource("CircleShape2D_3ate8")
+
+[connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]
+[connection signal="body_entered" from="steal_area" to="." method="_on_steal_area_body_entered"]

@@ -1,0 +1,56 @@
+[gd_scene load_steps=5 format=3 uid="uid://bpf4pf2hlwx73"]
+
+[ext_resource type="Script" uid="uid://dyxlh26bn46by" path="res://skip to starting forest.gd" id="1_q67hx"]
+[ext_resource type="Script" uid="uid://c2pmwbs85okc8" path="res://Scripts/skip_to_scene_buttons.gd" id="2_qyoab"]
+[ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="3_qcddo"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_akhdm"]
+font = ExtResource("3_qcddo")
+font_size = 21
+
+[node name="skip to scene" type="Node2D"]
+script = ExtResource("1_q67hx")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="OptionButton" type="OptionButton" parent="CanvasLayer"]
+modulate = Color(0.956863, 0.670588, 0.670588, 1)
+offset_left = 33.0
+offset_top = 23.0
+offset_right = 251.0
+offset_bottom = 69.0
+autowrap_mode = 2
+allow_reselect = true
+item_count = 10
+popup/item_0/text = "welcome screen"
+popup/item_0/id = 2
+popup/item_1/text = "introduction"
+popup/item_1/id = 6
+popup/item_2/text = "starting forest"
+popup/item_2/id = 0
+popup/item_3/text = "fairy shop"
+popup/item_3/id = 3
+popup/item_4/text = "witch forest"
+popup/item_4/id = 4
+popup/item_5/text = "argument with witch"
+popup/item_5/id = 5
+popup/item_6/text = "castle"
+popup/item_6/id = 8
+popup/item_7/text = "dialogue with queen"
+popup/item_7/id = 1
+popup/item_8/text = "ending scene"
+popup/item_8/id = 7
+popup/item_9/text = "credits"
+popup/item_9/id = 9
+script = ExtResource("2_qyoab")
+
+[node name="Label" type="Label" parent="CanvasLayer/OptionButton"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 11.0
+offset_right = 180.0
+offset_bottom = 33.0
+text = "Skip to scene"
+label_settings = SubResource("LabelSettings_akhdm")
+
+[connection signal="item_selected" from="CanvasLayer/OptionButton" to="CanvasLayer/OptionButton" method="_on_item_selected"]

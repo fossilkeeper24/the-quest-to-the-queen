@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://c8vatowm8qvux"]
+
+[ext_resource type="Texture2D" uid="uid://b5jtbmhrjyduk" path="res://icon.svg" id="1_vd4ih"]
+[ext_resource type="Texture2D" uid="uid://b88tjjmh2i38h" path="res://imgs/buttons/kookie_ismeipromise.webp" id="2_5fdq8"]
+[ext_resource type="Texture2D" uid="uid://pgwqvxjw3l4u" path="res://imgs/buttons/chimchim_swaggers.jpg" id="3_j57pq"]
+[ext_resource type="Script" uid="uid://67io34lq2x3t" path="res://Scripts/buttonTest.gd" id="4_j57pq"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="bg" type="Sprite2D" parent="."]
+position = Vector2(581, 326)
+scale = Vector2(9.0625, 5.0625)
+texture = ExtResource("1_vd4ih")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_left = 348.0
+offset_top = 190.0
+offset_right = 476.0
+offset_bottom = 318.0
+texture_normal = ExtResource("1_vd4ih")
+texture_pressed = ExtResource("2_5fdq8")
+texture_hover = ExtResource("3_j57pq")
+script = ExtResource("4_j57pq")
+
+[connection signal="pressed" from="TextureButton" to="TextureButton" method="_on_pressed"]

@@ -1,0 +1,133 @@
+[gd_scene load_steps=11 format=3 uid="uid://ckqi6nu17mvq7"]
+
+[ext_resource type="Script" uid="uid://ctxxlqsksuqxg" path="res://Scripts/starting_screen.gd" id="1_02pex"]
+[ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="1_174jm"]
+[ext_resource type="Script" uid="uid://bv8mkm15gg6t5" path="res://Scripts/label.gd" id="1_mgak0"]
+[ext_resource type="Texture2D" uid="uid://8ksk566xtga8" path="res://imgs/backgrounds/Starting screen.jpeg" id="2_02pex"]
+[ext_resource type="Texture2D" uid="uid://hjfx7rpleswd" path="res://imgs/buttons/pink long.png" id="4_nvfci"]
+[ext_resource type="Script" uid="uid://c2pmwbs85okc8" path="res://Scripts/skip_to_scene_buttons.gd" id="5_w5n24"]
+[ext_resource type="PackedScene" uid="uid://bpf4pf2hlwx73" path="res://scenes/skip_to_scene.tscn" id="7_op1ne"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_174jm"]
+font = ExtResource("1_174jm")
+font_size = 48
+
+[sub_resource type="LabelSettings" id="LabelSettings_op1ne"]
+font = ExtResource("1_174jm")
+font_size = 42
+font_color = Color(0.956863, 0.670588, 0.670588, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_02pex"]
+font = ExtResource("1_174jm")
+font_size = 32
+
+[node name="starting screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_02pex")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 1153.0
+offset_bottom = 646.0
+texture = ExtResource("2_02pex")
+
+[node name="Label" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 82.0
+offset_top = 48.0
+offset_right = 1030.0
+offset_bottom = 147.0
+text = "Welcome to 
+~ The Quest to the Queen ~"
+label_settings = SubResource("LabelSettings_174jm")
+script = ExtResource("1_mgak0")
+
+[node name="start" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 910.0
+offset_top = 534.0
+offset_right = 1147.0
+offset_bottom = 639.0
+texture_normal = ExtResource("4_nvfci")
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="start"]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 31.0
+offset_right = 263.0
+offset_bottom = 79.0
+text = "Start"
+label_settings = SubResource("LabelSettings_op1ne")
+
+[node name="skip" type="TextureButton" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 56.0
+offset_top = 311.0
+offset_right = 375.0
+offset_bottom = 410.0
+texture_normal = ExtResource("4_nvfci")
+stretch_mode = 4
+
+[node name="OptionButton" type="OptionButton" parent="skip"]
+modulate = Color(0.956863, 0.670588, 0.670588, 1)
+light_mask = 0
+layout_mode = 0
+offset_left = 13.0
+offset_top = 17.0
+offset_right = 305.0
+offset_bottom = 85.0
+autowrap_mode = 2
+allow_reselect = true
+item_count = 4
+popup/item_0/text = "starting forest"
+popup/item_0/id = 0
+popup/item_1/text = "dialogue with queen"
+popup/item_1/id = 1
+popup/item_2/text = "welcome screen"
+popup/item_2/id = 2
+popup/item_3/text = "fairy shop"
+popup/item_3/id = 3
+script = ExtResource("5_w5n24")
+
+[node name="Label" type="Label" parent="skip/OptionButton"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 15.0
+offset_right = 268.0
+offset_bottom = 50.0
+text = "Skip to scene"
+label_settings = SubResource("LabelSettings_02pex")
+
+[node name="credits" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 916.0
+offset_top = 429.0
+offset_right = 1146.0
+offset_bottom = 528.0
+texture_normal = ExtResource("4_nvfci")
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="credits"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 27.0
+offset_right = 239.0
+offset_bottom = 75.0
+text = "Credits"
+label_settings = SubResource("LabelSettings_op1ne")
+
+[node name="skip to scene" parent="." instance=ExtResource("7_op1ne")]
+
+[connection signal="pressed" from="start" to="." method="_on_start_pressed"]
+[connection signal="item_selected" from="skip/OptionButton" to="skip/OptionButton" method="_on_item_selected"]
+[connection signal="pressed" from="credits" to="." method="_on_credits_pressed"]

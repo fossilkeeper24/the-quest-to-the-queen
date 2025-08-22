@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://isp75s7ewo6p"]
+
+[ext_resource type="Texture2D" uid="uid://do8gwe5kfkr3h" path="res://imgs/characters/minisadkafnal.png" id="1_qs0wo"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b1vsk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_qs0wo")
+}],
+"loop": true,
+"name": &"pixel_idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i750c"]
+radius = 7.61577
+
+[node name="fairy" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_b1vsk")
+animation = &"pixel_idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 8)
+shape = SubResource("CircleShape2D_i750c")

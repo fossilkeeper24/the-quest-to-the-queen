@@ -1,0 +1,105 @@
+[gd_scene load_steps=11 format=3 uid="uid://bsjeasg2xinif"]
+
+[ext_resource type="PackedScene" uid="uid://bmmtms0gb2sd8" path="res://scenes/player.tscn" id="1_8kp0g"]
+[ext_resource type="Script" uid="uid://uvaewec76pub" path="res://Scripts/dialogue_with_queen.gd" id="1_lx771"]
+[ext_resource type="PackedScene" uid="uid://b1yom1avpjyq1" path="res://scenes/queen.tscn" id="2_luhm3"]
+[ext_resource type="Texture2D" uid="uid://dugiydklnreab" path="res://imgs/backgrounds/castleimg_pink.jpeg" id="2_q6atp"]
+[ext_resource type="Texture2D" uid="uid://hjfx7rpleswd" path="res://imgs/buttons/pink long.png" id="4_x4a7l"]
+[ext_resource type="Texture2D" uid="uid://bmtkel124exny" path="res://imgs/buttons/pink frame.png" id="5_4lhms"]
+[ext_resource type="Script" uid="uid://bf5pbaldiykps" path="res://Scripts/queen_dialogue_text.gd" id="6_lx771"]
+[ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="6_nfyd1"]
+[ext_resource type="PackedScene" uid="uid://bpf4pf2hlwx73" path="res://scenes/skip_to_scene.tscn" id="9_q6atp"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_lx771"]
+font = ExtResource("6_nfyd1")
+font_size = 30
+font_color = Color(0.956863, 0.670588, 0.670588, 1)
+
+[node name="dialogue with queen" type="Node2D"]
+script = ExtResource("1_lx771")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+modulate = Color(0.85098, 1, 0.933333, 1)
+offset_right = 1154.0
+offset_bottom = 652.0
+texture = ExtResource("2_q6atp")
+expand_mode = 1
+
+[node name="player" parent="." instance=ExtResource("1_8kp0g")]
+position = Vector2(319, 368)
+scale = Vector2(0.55, 0.55)
+
+[node name="queen" parent="." instance=ExtResource("2_luhm3")]
+position = Vector2(854, 364)
+scale = Vector2(0.3, 0.3)
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+offset_left = 66.0
+offset_top = 379.0
+offset_right = 1080.0
+offset_bottom = 602.0
+texture = ExtResource("4_x4a7l")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Dialogue" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 118.0
+offset_top = 444.0
+offset_right = 1023.0
+offset_bottom = 550.0
+text = "I am Princess of Selene and I have heard your name all the way from the village of Blue Moon.
+"
+label_settings = SubResource("LabelSettings_lx771")
+autowrap_mode = 2
+text_overrun_behavior = 4
+script = ExtResource("6_lx771")
+
+[node name="Next Button" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 963.0
+offset_top = 478.0
+offset_right = 1140.0
+offset_bottom = 647.0
+texture_normal = ExtResource("5_4lhms")
+stretch_mode = 4
+
+[node name="Label" type="Label" parent="Control/Next Button"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 81.0
+offset_right = 135.0
+offset_bottom = 118.0
+text = "Next"
+label_settings = SubResource("LabelSettings_lx771")
+
+[node name="Prev Button" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 480.0
+offset_right = 203.0
+offset_bottom = 645.0
+texture_normal = ExtResource("5_4lhms")
+stretch_mode = 4
+
+[node name="Label" type="Label" parent="Control/Prev Button"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 81.0
+offset_right = 135.0
+offset_bottom = 118.0
+text = "Prev"
+label_settings = SubResource("LabelSettings_lx771")
+
+[node name="camera queen dialogue" type="Camera2D" parent="."]
+position = Vector2(576, 325)
+
+[node name="skip to scene" parent="camera queen dialogue" instance=ExtResource("9_q6atp")]
+
+[connection signal="pressed" from="Control/Next Button" to="Control/Dialogue" method="_on_next_button_pressed"]
+[connection signal="pressed" from="Control/Next Button" to="Control/Dialogue" method="_on_texture_button_pressed"]
+[connection signal="pressed" from="Control/Prev Button" to="Control/Dialogue" method="_on_prev_button_pressed"]

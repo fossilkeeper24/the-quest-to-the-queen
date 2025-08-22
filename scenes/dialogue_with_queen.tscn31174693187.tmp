@@ -1,0 +1,96 @@
+[gd_scene load_steps=10 format=3 uid="uid://bsjeasg2xinif"]
+
+[ext_resource type="PackedScene" uid="uid://bmmtms0gb2sd8" path="res://scenes/player.tscn" id="1_8kp0g"]
+[ext_resource type="Texture2D" uid="uid://pgwqvxjw3l4u" path="res://imgs/buttons/chimchim_swaggers.jpg" id="1_luhm3"]
+[ext_resource type="Script" uid="uid://uvaewec76pub" path="res://scenes/dialogue_with_queen.gd" id="1_lx771"]
+[ext_resource type="PackedScene" uid="uid://b1yom1avpjyq1" path="res://scenes/queen.tscn" id="2_luhm3"]
+[ext_resource type="Texture2D" uid="uid://hjfx7rpleswd" path="res://imgs/buttons/pink long.png" id="4_x4a7l"]
+[ext_resource type="Texture2D" uid="uid://bmtkel124exny" path="res://imgs/buttons/pink frame.png" id="5_4lhms"]
+[ext_resource type="Script" uid="uid://bf5pbaldiykps" path="res://scenes/queen_dialogue_text.gd" id="6_lx771"]
+[ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="6_nfyd1"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_lx771"]
+font = ExtResource("6_nfyd1")
+font_size = 36
+font_color = Color(0.956863, 0.670588, 0.670588, 1)
+
+[node name="dialogue with queen" type="Node2D"]
+script = ExtResource("1_lx771")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1154.0
+offset_bottom = 652.0
+texture = ExtResource("1_luhm3")
+expand_mode = 1
+
+[node name="player" parent="." instance=ExtResource("1_8kp0g")]
+position = Vector2(339, 406)
+scale = Vector2(2.25, 2.25)
+
+[node name="queen" parent="." instance=ExtResource("2_luhm3")]
+position = Vector2(854, 364)
+scale = Vector2(0.3, 0.3)
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+offset_left = -59.0
+offset_top = -116.0
+offset_right = 1190.0
+offset_bottom = 843.0
+texture = ExtResource("4_x4a7l")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 291.0
+offset_top = 445.0
+offset_right = 388.0
+offset_bottom = 482.0
+text = "Queen: Hi"
+label_settings = SubResource("LabelSettings_lx771")
+script = ExtResource("6_lx771")
+
+[node name="TextureButton" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 872.0
+offset_top = 432.0
+offset_right = 1049.0
+offset_bottom = 601.0
+texture_normal = ExtResource("5_4lhms")
+stretch_mode = 4
+
+[node name="Label" type="Label" parent="Control/TextureButton"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 81.0
+offset_right = 135.0
+offset_bottom = 118.0
+text = "Next"
+label_settings = SubResource("LabelSettings_lx771")
+
+[node name="TextureButton2" type="TextureButton" parent="Control"]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 443.0
+offset_right = 302.0
+offset_bottom = 608.0
+texture_normal = ExtResource("5_4lhms")
+stretch_mode = 4
+
+[node name="Label" type="Label" parent="Control/TextureButton2"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 81.0
+offset_right = 135.0
+offset_bottom = 118.0
+text = "Prev"
+label_settings = SubResource("LabelSettings_lx771")
+
+[node name="camera queen dialogue" type="Camera2D" parent="."]
+position = Vector2(576, 325)
+
+[connection signal="pressed" from="Control/TextureButton" to="Control/Label" method="_on_texture_button_pressed"]

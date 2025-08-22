@@ -1,0 +1,58 @@
+[gd_scene load_steps=8 format=3 uid="uid://b1yom1avpjyq1"]
+
+[ext_resource type="Script" uid="uid://beaabhnm6lr6a" path="res://Scripts/queen.gd" id="1_4b865"]
+[ext_resource type="Texture2D" uid="uid://cnatp50gl0o06" path="res://imgs/characters/queen_but_small_left.png" id="1_e14lb"]
+[ext_resource type="Texture2D" uid="uid://cdbdn7oqm3j8s" path="res://imgs/characters/vn_queen.png" id="1_h447w"]
+[ext_resource type="Texture2D" uid="uid://dwnqtg2fy8owk" path="res://imgs/characters/queen_but_small.png" id="1_o0ch0"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o0ch0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_e14lb")
+}],
+"loop": true,
+"name": &"pixel_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_o0ch0")
+}],
+"loop": true,
+"name": &"pixel_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_h447w")
+}],
+"loop": true,
+"name": &"vn_img",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_e14lb"]
+radius = 7.07107
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4b865"]
+radius = 29.4279
+
+[node name="queen" type="CharacterBody2D"]
+script = ExtResource("1_4b865")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_o0ch0")
+animation = &"pixel_left"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 10)
+shape = SubResource("CircleShape2D_e14lb")
+
+[node name="queen detect" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="queen detect"]
+position = Vector2(0, 4)
+shape = SubResource("CircleShape2D_4b865")
+
+[connection signal="body_entered" from="queen detect" to="." method="_on_queen_detect_body_entered"]

@@ -1,0 +1,85 @@
+[gd_scene load_steps=8 format=3 uid="uid://couss7wgxdplc"]
+
+[ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="1_0bpdh"]
+[ext_resource type="Texture2D" uid="uid://clv8p8jii57jd" path="res://imgs/backgrounds/credits_screen_background.png" id="1_2ckv8"]
+[ext_resource type="PackedScene" uid="uid://bpf4pf2hlwx73" path="res://scenes/skip_to_scene.tscn" id="3_0ctdu"]
+[ext_resource type="Script" uid="uid://dsm4frbmmx3jp" path="res://Scripts/credits camera.gd" id="3_2fbfq"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_2ckv8"]
+font = ExtResource("1_0bpdh")
+font_size = 160
+font_color = Color(0.243687, 4.00328e-05, 0.243685, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_0ctdu"]
+font = ExtResource("1_0bpdh")
+font_size = 32
+font_color = Color(0.243137, 0, 0.243137, 1)
+
+[sub_resource type="Curve2D" id="Curve2D_2fbfq"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 597, 0, 0, 0, 0, 0, 597, 1226)
+}
+point_count = 2
+
+[node name="credits" type="Node2D"]
+script = ExtResource("3_2fbfq")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1190.0
+offset_bottom = 2314.0
+texture = ExtResource("1_2ckv8")
+stretch_mode = 1
+
+[node name="Label" type="Label" parent="."]
+offset_left = 208.0
+offset_top = 65.0
+offset_right = 928.0
+offset_bottom = 225.0
+text = "Credits"
+label_settings = SubResource("LabelSettings_2ckv8")
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 82.0
+offset_top = 240.0
+offset_right = 1081.0
+offset_bottom = 1155.0
+text = "(Use scroll wheel as you normally would to scroll)
+
+Jasmine Punia:
+background/character artist,storywriter and musician 
+
+Sharvani:
+Game developer
+
+Inesa:
+Artist
+
+Assets used:
+Font asset:
+peaberry font family on itch.io
+
+TileSets:
+super retro world on itch.io
+
+hana caraka topdown tileset on itch.io
+
+Image of forest:
+https://unsplash.com/photos/photography-of-tall-trees-at-daytime-MMJx78V7xS8
+"
+label_settings = SubResource("LabelSettings_0ctdu")
+autowrap_mode = 2
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource("Curve2D_2fbfq")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+position = Vector2(597, 0)
+rotation = 1.5708
+loop = false
+
+[node name="Camera2D" type="Camera2D" parent="Path2D/PathFollow2D"]
+position = Vector2(327, 15)
+rotation = 1.5708
+
+[node name="skip to scene" parent="Path2D/PathFollow2D/Camera2D" instance=ExtResource("3_0ctdu")]
+position = Vector2(-597, -330)

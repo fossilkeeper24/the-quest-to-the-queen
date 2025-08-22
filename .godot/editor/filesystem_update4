@@ -1,0 +1,18 @@
+res://scenes/player.tscn
+res://scenes/evil.tscn
+res://scenes/fairy shop.tscn
+res://scenes/starting screen.tscn
+res://scenes/fairy.tscn
+res://scenes/starting_forest.tscn
+res://scenes/queen.tscn
+res://scenes/dialogue_with_queen.tscn
+res://scenes/skip_to_scene.tscn
+res://scenes/ending_scene.tscn
+res://scenes/argue_with_witch.tscn
+res://scenes/witch_forest.tscn
+res://scenes/introduction.tscn
+res://scenes/castle.tscn
+res://scenes/credits.tscn
+res://scenes/sound.tscn
+res://Scripts/skip_to_scene_buttons.gd
+res://Scripts/castle.gd

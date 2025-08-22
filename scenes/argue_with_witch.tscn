@@ -100,6 +100,6 @@ position = Vector2(576, 325)
 
 [node name="skip to scene" parent="camera queen dialogue" instance=ExtResource("9_ew116")]
 
-[connection signal="pressed" from="dialogue box/Next Button" to="dialogue box/Dialogue" method="_on_next_button_pressed"]
 [connection signal="pressed" from="dialogue box/Next Button" to="dialogue box/Dialogue" method="_on_texture_button_pressed"]
+[connection signal="pressed" from="dialogue box/Next Button" to="dialogue box/Dialogue" method="_on_next_button_pressed"]
 [connection signal="pressed" from="dialogue box/Prev Button" to="dialogue box/Dialogue" method="_on_prev_button_pressed"]

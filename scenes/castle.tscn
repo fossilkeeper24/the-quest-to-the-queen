@@ -1,5 +1,6 @@
-[gd_scene load_steps=17 format=3 uid="uid://d1hra1er3d2yf"]
+[gd_scene load_steps=18 format=3 uid="uid://d1hra1er3d2yf"]
 
+[ext_resource type="Script" uid="uid://d3dw72ummf0yr" path="res://Scripts/castle.gd" id="1_feow2"]
 [ext_resource type="Texture2D" uid="uid://d2oby34lr5d11" path="res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Tree.png" id="1_jxdab"]
 [ext_resource type="Texture2D" uid="uid://bhmva2ajbmh2m" path="res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Bush.png" id="2_7pkwf"]
 [ext_resource type="Texture2D" uid="uid://bq4k78t338c3f" path="res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Grass.png" id="3_ha01g"]
@@ -112,6 +113,7 @@ sources/5 = SubResource("TileSetAtlasSource_uplxu")
 sources/6 = SubResource("TileSetAtlasSource_lk0tx")
 
 [node name="castle" type="Node2D"]
+script = ExtResource("1_feow2")
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true

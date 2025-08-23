@@ -16,3 +16,31 @@ res://scenes/credits.tscn
 res://scenes/sound.tscn
 res://Scripts/skip_to_scene_buttons.gd
 res://Scripts/castle.gd
+res://skip to starting forest.gd
+res://addons/godot_super-wakatime/api_key_prompt.tscn
+res://addons/godot_super-wakatime/counter.tscn
+res://addons/godot_super-wakatime/decompressor.gd
+res://addons/godot_super-wakatime/godot_super-wakatime.gd
+res://addons/godot_super-wakatime/heartbeat.gd
+res://addons/godot_super-wakatime/utils.gd
+res://Scripts/argue_with_witch.gd
+res://Scripts/buttonTest.gd
+res://Scripts/button_2.gd
+res://Scripts/credits camera.gd
+res://Scripts/dialogue_with_fairy.gd
+res://Scripts/dialogue_with_queen.gd
+res://Scripts/ending_scene.gd
+res://Scripts/fairy.gd
+res://Scripts/Game.gd
+res://Scripts/global.gd
+res://Scripts/intro_text.gd
+res://Scripts/label.gd
+res://Scripts/nextSceneButton.gd
+res://Scripts/player.gd
+res://Scripts/queen.gd
+res://Scripts/queen_dialogue_text.gd
+res://Scripts/set_argue_with_witch_cam.gd
+res://Scripts/starting_forest.gd
+res://Scripts/starting_screen.gd
+res://Scripts/witch.gd
+res://Scripts/witch_forest.gd

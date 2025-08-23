@@ -1,6 +1,5 @@
-[gd_scene load_steps=5 format=3 uid="uid://bpf4pf2hlwx73"]
+[gd_scene load_steps=4 format=3 uid="uid://bpf4pf2hlwx73"]
 
-[ext_resource type="Script" uid="uid://dyxlh26bn46by" path="res://skip to starting forest.gd" id="1_q67hx"]
 [ext_resource type="Script" uid="uid://c2pmwbs85okc8" path="res://Scripts/skip_to_scene_buttons.gd" id="2_qyoab"]
 [ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="3_qcddo"]
 
@@ -9,7 +8,6 @@ font = ExtResource("3_qcddo")
 font_size = 21
 
 [node name="skip to scene" type="Node2D"]
-script = ExtResource("1_q67hx")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

@@ -46,16 +46,17 @@ offset_right = 1081.0
 offset_bottom = 1155.0
 text = "(Use scroll wheel as you normally would to scroll)
 
-Jasmine Punia:
+Jasmine:
 background/character artist,storywriter and musician 
 
 Sharvani:
 Game developer
 
 Inesa:
-Artist
+Character Artist
 
 Assets used:
+
 Font asset:
 peaberry font family on itch.io
 
@@ -66,6 +67,10 @@ hana caraka topdown tileset on itch.io
 
 Image of forest:
 https://unsplash.com/photos/photography-of-tall-trees-at-daytime-MMJx78V7xS8
+
+Image of castle:
+https://unsplash.com/photos/the-disney-castle-stands-tall-with-lovely-flowers-4NefhlD4M5o
+
 
 anything that wasnt an asset listed was made by us :)"
 label_settings = SubResource("LabelSettings_0ctdu")

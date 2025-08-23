@@ -1,7 +1,8 @@
+res://scenes/credits.tscn
+res://scenes/starting screen.tscn
 res://scenes/player.tscn
 res://scenes/evil.tscn
 res://scenes/fairy shop.tscn
-res://scenes/starting screen.tscn
 res://scenes/fairy.tscn
 res://scenes/starting_forest.tscn
 res://scenes/queen.tscn
@@ -12,9 +13,7 @@ res://scenes/argue_with_witch.tscn
 res://scenes/witch_forest.tscn
 res://scenes/introduction.tscn
 res://scenes/castle.tscn
-res://scenes/credits.tscn
 res://scenes/sound.tscn
-res://Scripts/global.gd
-res://Scripts/music.gd
 res://scenes/intro_outro muc=sic.tscn
 res://scenes/queen_music.tscn
+res://scenes/startingscreen_real.tscn

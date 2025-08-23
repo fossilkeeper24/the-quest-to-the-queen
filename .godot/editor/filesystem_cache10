@@ -1,20 +1,25 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1755947600
-README.md::TextFile::-1::1755908453::0::1::::<><><>0<>0<><>::
-skip to starting forest.gd::GDScript::8891956840296594894::1755907100::0::1::::<>Node2D<><>0<>0<><>::
+::res://::1755972853
+export_presets.cfg::TextFile::-1::1755972853::0::1::::<><><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1755908453::0::1::::<><><>0<>0<><>::
 ::res://addons/::1755907098
 ::res://addons/godot_super-wakatime/::1755907098
-api_key_prompt.tscn::PackedScene::3919262858641749045::1755907098::0::1::::<><><>0<>0<><>::
-counter.tscn::PackedScene::6849360014225833986::1755907098::0::1::::<><><>0<>0<><>::
-decompressor.gd::GDScript::7170257855320574373::1755907098::0::1::::<>RefCounted<><>0<>0<><>::
-godot_super-wakatime.gd::GDScript::6999153035719180702::1755907098::0::1::::<>EditorPlugin<><>0<>1<><>::
-heartbeat.gd::GDScript::4174161298367960832::1755907098::0::1::::<>RefCounted<><>0<>0<><>::
-plugin.cfg::TextFile::-1::1755907098::0::1::::<><><>0<>0<><>::
-README.md::TextFile::-1::1755907098::0::1::::<><><>0<>0<><>::
-utils.gd::GDScript::3513732192236816307::1755907098::0::1::::<>RefCounted<><>0<>0<><>::
+api_key_prompt.tscn::PackedScene/PackedScene::3919262858641749045::1755907098::0::1::::<><><>0<>0<><>::
+counter.tscn::PackedScene/PackedScene::6849360014225833986::1755907098::0::1::::<><><>0<>0<><>::
+decompressor.gd::GDScript/GDScript::7170257855320574373::1755907098::0::1::::<>RefCounted<><>0<>0<><>::
+godot_super-wakatime.gd::GDScript/GDScript::6999153035719180702::1755907098::0::1::::<>EditorPlugin<><>0<>1<><>::
+heartbeat.gd::GDScript/GDScript::4174161298367960832::1755907098::0::1::::<>RefCounted<><>0<>0<><>::
+plugin.cfg::TextFile/TextFile::-1::1755907098::0::1::::<><><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1755907098::0::1::::<><><>0<>0<><>::
+utils.gd::GDScript/GDScript::3513732192236816307::1755907098::0::1::::<>RefCounted<><>0<>0<><>::
+::res://exports/::1755972643
+::res://exports/web/::1755972869
+index.apple-touch-icon.png::CompressedTexture2D::1652419923227891858::1755972869::1755972894::1::::<><><>0<>0<>eadbfd9335a640cf310c8b469412965c<>res://.godot/imported/index.apple-touch-icon.png-bec44240503e0edb75d852ab0cc26d58.ctex::
+index.icon.png::CompressedTexture2D::4671005917436177865::1755972869::1755972894::1::::<><><>0<>0<>2366030aa9624260b987636dd9b4c4ec<>res://.godot/imported/index.icon.png-8466b9836b3b13bcc45e53125321ef39.ctex::
+index.png::CompressedTexture2D::4431704134166766188::1755972869::1755972894::1::::<><><>0<>0<>4ad2ab8d1d6f49ad1cf49d6d1626f77e<>res://.godot/imported/index.png-d03311572afeb237347e3aea48014cb0.ctex::
 ::res://imgs/::1755947624
-arrow keys.jpeg::CompressedTexture2D::3768452785088552505::1755947146::1755947624::1::::<><><>0<>0<>17c4e86265ec20a12114725348be2505<>res://.godot/imported/arrow keys.jpeg-d9cb562019ae493f8b76ef7144a626cf.ctex::
-mouse.jpeg::CompressedTexture2D::9182461345259965938::1755947151::1755947624::1::::<><><>0<>0<>3543c56f9e2386db258cba57a409f981<>res://.godot/imported/mouse.jpeg-0930b56a3ba8c242ba91dd497db0ff15.ctex::
+arrow keys.jpeg::CompressedTexture2D/CompressedTexture2D::3768452785088552505::1755947146::1755947624::1::::<><><>0<>0<>17c4e86265ec20a12114725348be2505<>res://.godot/imported/arrow keys.jpeg-d9cb562019ae493f8b76ef7144a626cf.ctex::
+mouse.jpeg::CompressedTexture2D/CompressedTexture2D::9182461345259965938::1755947151::1755947624::1::::<><><>0<>0<>3543c56f9e2386db258cba57a409f981<>res://.godot/imported/mouse.jpeg-0930b56a3ba8c242ba91dd497db0ff15.ctex::
 ::res://imgs/backgrounds/::1755907098
 castleimg_pink.jpeg::CompressedTexture2D/CompressedTexture2D::8575953958896088137::1755907098::1755907098::1::::<><><>0<>0<>3a50df8f5d3b32b315984fd8621422f5<>res://.godot/imported/castleimg_pink.jpeg-f48bb0e5bed41ead9920d2e2a2116826.ctex::
 credits_screen_background.png::CompressedTexture2D/CompressedTexture2D::5590302775458865381::1755907098::1755907098::1::::<><><>0<>0<>616ddf27856457956128c1d5980e12de<>res://.godot/imported/credits_screen_background.png-c43aee7745ee965a18448ba1e7a2ce51.ctex::
@@ -42,14 +47,14 @@ you_left.png::CompressedTexture2D/CompressedTexture2D::7981017827745198467::1755
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/::1755907100
 ._bitmap-font-preview.png::CompressedTexture2D/CompressedTexture2D::3818176844041602489::1755907100::1755907100::0::::<><><>0<>0<>e30bd18ce52d9082dc8e649b5153520c<>::
 ._font-preview.png::CompressedTexture2D/CompressedTexture2D::481760795516332677::1755907100::1755907100::0::::<><><>0<>0<>644d2fd8aa977230dc3717d9a6427adf<>::
-._OFL.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
-._README.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+._OFL.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+._README.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/::1755907100
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/1. WhitePeaberry/::1755907100
 ._WhitePeaberry.png::CompressedTexture2D/CompressedTexture2D::296166651450563379::1755907100::1755907100::0::::<><><>0<>0<>9ced7215ef9385db59119c7e00943102<>::
-._WhitePeaberry.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+._WhitePeaberry.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/1. WhitePeaberry/2. White Peaberry/::1755907100
-._WhitePeaberry.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+._WhitePeaberry.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/1. WhitePeaberry/2. White Peaberry/White Peaberry Sprite Kit/::1755907100
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/1. WhitePeaberry/2. White Peaberry/WhitePeaberry.fnt (BMFont Text)/::1755907100
 ._WhitePeaberry.fnt::FontFile/FontFile::8978511809877513193::1755907100::1755907100::1::::<><><>0<>0<>82a506e1b78285ac119821c7e07f4da3<>res://.godot/imported/._WhitePeaberry.fnt-9ec2528e65c0f4b83021e120e95132dc.fontdata::
@@ -61,7 +66,7 @@ you_left.png::CompressedTexture2D/CompressedTexture2D::7981017827745198467::1755
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/2. WhitePeaberry Outline/::1755907100
 ._WhitePeaberryOutline-demo2.png::CompressedTexture2D/CompressedTexture2D::4966059352704591620::1755907100::1755907100::0::::<><><>0<>0<>3b404d5d28ef9a4532120196b31bc808<>::
 ._WhitePeaberryOutline.png::CompressedTexture2D/CompressedTexture2D::1952981335174451759::1755907100::1755907100::0::::<><><>0<>0<>07a61b094fa6630557f02b66e81118f8<>::
-._WhitePeaberryOutline.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+._WhitePeaberryOutline.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/2. WhitePeaberry Outline/White Peaberry Outline Sprite Kit/::1755907100
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/2. WhitePeaberry Outline/WhitePeaberryOutline.fnt (BMFont Text)/::1755907100
 ._WhitePeaberryOutline.fnt::FontFile/FontFile::8039651930499088455::1755907100::1755907100::1::::<><><>0<>0<>64aaa5661129b30f836385971998cd6b<>res://.godot/imported/._WhitePeaberryOutline.fnt-2f8125cb93678442a3f4da261aadea31.fontdata::
@@ -69,14 +74,14 @@ you_left.png::CompressedTexture2D/CompressedTexture2D::7981017827745198467::1755
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/3. IndigoPeaberry/::1755907100
 ._IndigoPeaberry-demo.png::CompressedTexture2D/CompressedTexture2D::6365041223952616447::1755907100::1755907100::0::::<><><>0<>0<>f4a01a4da86842fd136467252bb25101<>::
 ._IndigoPeaberry.png::CompressedTexture2D/CompressedTexture2D::2878247769899172039::1755907100::1755907100::0::::<><><>0<>0<>0116970f34cdb4947e56a367e8ab9fd7<>::
-._IndigoPeaberry.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+._IndigoPeaberry.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/3. IndigoPeaberry/Indigo Peaberry Sprite Kit/::1755907100
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/3. IndigoPeaberry/IndigoPeaberry.fnt (BMFont Text)/::1755907100
 ._IndigoPeaberry.fnt::FontFile/FontFile::804043355066220507::1755907100::1755907100::1::::<><><>0<>0<>4d2d476f9f4e889d118645b26650ecf1<>res://.godot/imported/._IndigoPeaberry.fnt-6568f93c9f6a6c9f17e0d2d037892f5c.fontdata::
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/3. IndigoPeaberry/IndigoPeaberry.fnt (XML)/::1755907100
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/4. RedPeaberry/::1755907100
 ._RedPeaberry.png::CompressedTexture2D/CompressedTexture2D::9196997567134025354::1755907100::1755907100::0::::<><><>0<>0<>3f6dfb9d01317e7ab5c35d2b68e34d93<>::
-._RedPeaberry.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+._RedPeaberry.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/4. RedPeaberry/RedPeaberry Sprite Kit/::1755907100
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/4. RedPeaberry/RedPeaberry Sprite Kit/RedPeaberry.atlas/::1755907100
 ._33.png::CompressedTexture2D/CompressedTexture2D::7080580181624211960::1755907100::1755907100::0::::<><><>0<>0<>2d7be6ed0803be041e8451e2260c76b1<>::
@@ -178,7 +183,7 @@ you_left.png::CompressedTexture2D/CompressedTexture2D::7981017827745198467::1755
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/4. RedPeaberry/RedPeaberry.fnt (XML)/::1755907100
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/5. ShinyPeaberry/::1755907100
 ._ShinyPeaberry.png::CompressedTexture2D/CompressedTexture2D::1891073839443762119::1755907100::1755907100::0::::<><><>0<>0<>9132a45ad4a1efbbeea43354a9d9ddfa<>::
-._ShinyPeaberry.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+._ShinyPeaberry.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/5. ShinyPeaberry/ShinyPeaberry Sprite Kit/::1755907100
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/5. ShinyPeaberry/ShinyPeaberry Sprite Kit/ShinyPeaberry.atlas/::1755907100
 ._33.png::CompressedTexture2D/CompressedTexture2D::6905932921793788990::1755907100::1755907100::0::::<><><>0<>0<>0eac4f2f6ad327ce5c6209d7d593c009<>::
@@ -281,7 +286,7 @@ you_left.png::CompressedTexture2D/CompressedTexture2D::7981017827745198467::1755
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/6. GoldPeaberry/::1755907100
 ._GoldPeaberry-preview.png::CompressedTexture2D/CompressedTexture2D::6444944326682036557::1755907100::1755907100::0::::<><><>0<>0<>7e03fca59afe83cdb15c2168b756ebf0<>::
 ._GoldPeaberry.png::CompressedTexture2D/CompressedTexture2D::8973189745437284605::1755907100::1755907100::0::::<><><>0<>0<>089c4b025dfe86fb0f1385d39ebd7028<>::
-._GoldPeaberry.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+._GoldPeaberry.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/6. GoldPeaberry/Gold Peaberry Sprite Kit/::1755907100
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/6. GoldPeaberry/Gold Peaberry Sprite Kit/GoldPeaberry.atlas/::1755907100
 ::res://imgs/fonts/__MACOSX/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/6. GoldPeaberry/GoldPeaberry Normal Map Pack/::1755907100
@@ -312,18 +317,18 @@ you_left.png::CompressedTexture2D/CompressedTexture2D::7981017827745198467::1755
 ::res://imgs/fonts/Peaberry-Font-v2.0/::1755907100
 bitmap-font-preview.png::CompressedTexture2D/CompressedTexture2D::6947828680816436358::1755907100::1755907100::1::::<><><>0<>0<>f19eeb203d62ed1d1ad870b166a633d6<>res://.godot/imported/bitmap-font-preview.png-17c4885708bd3734ce174bb1b778afc2.ctex::
 font-preview.png::CompressedTexture2D/CompressedTexture2D::7895248415492722903::1755907100::1755907100::1::::<><><>0<>0<>9854c2eb754d59cbce2f2dfee145b739<>res://.godot/imported/font-preview.png-aa7389549c2c8ac2969c387b00af6091.ctex::
-OFL.txt::TextFile::-1::1755907098::0::1::::<><><>0<>0<><>::
-README.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+OFL.txt::TextFile/TextFile::-1::1755907098::0::1::::<><><>0<>0<><>::
+README.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/::1755907100
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/1. WhitePeaberry/::1755907099
 WhitePeaberry-preview.png::CompressedTexture2D/CompressedTexture2D::1020843695323044968::1755907099::1755907099::1::::<><><>0<>0<>8084dffce81fdca630809f6c1506c886<>res://.godot/imported/WhitePeaberry-preview.png-78b6b30920925a2e77fdc28fb16869a7.ctex::
 WhitePeaberry.png::CompressedTexture2D/CompressedTexture2D::5544699650344881732::1755907099::1755907099::1::::<><><>0<>0<>1d2422f7e3b976c5ce903870d241cd6e<>res://.godot/imported/WhitePeaberry.png-421da9956a51b3679434e8a658a7eccb.ctex::
-WhitePeaberry.txt::TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
-WhitePeaberry.xml::TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
+WhitePeaberry.txt::TextFile/TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
+WhitePeaberry.xml::TextFile/TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/1. WhitePeaberry/2. White Peaberry/::1755907098
 WhitePeaberry.png::CompressedTexture2D/CompressedTexture2D::7531860905712259159::1755907098::1755907098::1::::<><><>0<>0<>e5596a32edc3b22367b0f29c245b763d<>res://.godot/imported/WhitePeaberry.png-c5d859276a757e54bdf9cecf8c4e2dc8.ctex::
-WhitePeaberry.txt::TextFile::-1::1755907098::0::1::::<><><>0<>0<><>::
-WhitePeaberry.xml::TextFile::-1::1755907098::0::1::::<><><>0<>0<><>::
+WhitePeaberry.txt::TextFile/TextFile::-1::1755907098::0::1::::<><><>0<>0<><>::
+WhitePeaberry.xml::TextFile/TextFile::-1::1755907098::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/1. WhitePeaberry/2. White Peaberry/White Peaberry Sprite Kit/::1755907098
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/1. WhitePeaberry/2. White Peaberry/White Peaberry Sprite Kit/WhitePeaberry.atlas/::1755907098
 33.png::CompressedTexture2D/CompressedTexture2D::4010599948888891301::1755907098::1755907098::1::::<><><>0<>0<>9bbf4d2f20ff3be3390db2cd7a309074<>res://.godot/imported/33.png-0d4cc4af1c73fcac582788cd1d368e86.ctex::
@@ -528,8 +533,8 @@ WhitePeaberry.fnt::FontFile/FontFile::3811616281677056438::1755907099::175590709
 WhitePeaberryOutline-demo2.png::CompressedTexture2D/CompressedTexture2D::4818873420418479780::1755907099::1755907099::1::::<><><>0<>0<>3ab5d97e4a4d48b49e526b86306c86ed<>res://.godot/imported/WhitePeaberryOutline-demo2.png-6ecff30ebbf32766f0372809202690d2.ctex::
 WhitePeaberryOutline-preview.png::CompressedTexture2D/CompressedTexture2D::5897036370725192624::1755907099::1755907099::1::::<><><>0<>0<>dacf63440bee6780ad71c11cf0d70a13<>res://.godot/imported/WhitePeaberryOutline-preview.png-d09e132182d856ab474d706bb793aaa4.ctex::
 WhitePeaberryOutline.png::CompressedTexture2D/CompressedTexture2D::7333042276132576574::1755907099::1755907099::1::::<><><>0<>0<>016057d1c3c835bb833003565974aa71<>res://.godot/imported/WhitePeaberryOutline.png-4a69b1deaaf5c5b7c7a161f8a1049f60.ctex::
-WhitePeaberryOutline.txt::TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
-WhitePeaberryOutline.xml::TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
+WhitePeaberryOutline.txt::TextFile/TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
+WhitePeaberryOutline.xml::TextFile/TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/2. WhitePeaberry Outline/White Peaberry Outline Sprite Kit/::1755907099
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/2. WhitePeaberry Outline/White Peaberry Outline Sprite Kit/WhitePeaberryOutline.atlas/::1755907099
 33.png::CompressedTexture2D/CompressedTexture2D::8221395311601050992::1755907099::1755907099::1::::<><><>0<>0<>97e7296698577f2b7d50211b3386d544<>res://.godot/imported/33.png-d1ddeba6eb92fe8b857f8d5bbaa18ca1.ctex::
@@ -633,8 +638,8 @@ WhitePeaberryOutline.fnt::FontFile/FontFile::91230975021399791::1755907099::1755
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/3. IndigoPeaberry/::1755907099
 IndigoPeaberry-demo.png::CompressedTexture2D/CompressedTexture2D::1629525512209354629::1755907099::1755907099::1::::<><><>0<>0<>b7b3ff13160d34d1147ea54372dcc8ae<>res://.godot/imported/IndigoPeaberry-demo.png-ba1e7d6098d869e36ab64c7a66ecce10.ctex::
 IndigoPeaberry.png::CompressedTexture2D/CompressedTexture2D::2251928128714742059::1755907099::1755907099::1::::<><><>0<>0<>9d9220f42940c3f1bd132515c7cf25c5<>res://.godot/imported/IndigoPeaberry.png-8cfd75762b11a307dcb8646f6995eb8c.ctex::
-IndigoPeaberry.txt::TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
-IndigoPeaberry.xml::TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
+IndigoPeaberry.txt::TextFile/TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
+IndigoPeaberry.xml::TextFile/TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/3. IndigoPeaberry/Indigo Peaberry Sprite Kit/::1755907099
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/3. IndigoPeaberry/Indigo Peaberry Sprite Kit/IndigoPeaberry.atlas/::1755907099
 33.png::CompressedTexture2D/CompressedTexture2D::7750491111879047947::1755907099::1755907099::1::::<><><>0<>0<>0880413f8cce8292cb37645121f0e875<>res://.godot/imported/33.png-ea737bc385713c96784e8e8f470834e2.ctex::
@@ -738,8 +743,8 @@ IndigoPeaberry.fnt::FontFile/FontFile::8210198477996023970::1755907099::17559070
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/4. RedPeaberry/::1755907099
 RedPeaberry-preview.png::CompressedTexture2D/CompressedTexture2D::267279861264985863::1755907099::1755907099::1::::<><><>0<>0<>ab0c6eeae23a30ee301948937b36d8cd<>res://.godot/imported/RedPeaberry-preview.png-482bdeeecdc29ac955d92d3af5027b60.ctex::
 RedPeaberry.png::CompressedTexture2D/CompressedTexture2D::3030489421678091496::1755907099::1755907099::1::::<><><>0<>0<>b683348f852c0578aad22ca63cb9ced8<>res://.godot/imported/RedPeaberry.png-4eaf0e8e24a62d9f35c9d1884b410eca.ctex::
-RedPeaberry.txt::TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
-RedPeaberry.xml::TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
+RedPeaberry.txt::TextFile/TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
+RedPeaberry.xml::TextFile/TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/4. RedPeaberry/RedPeaberry Sprite Kit/::1755907099
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/4. RedPeaberry/RedPeaberry Sprite Kit/RedPeaberry.atlas/::1755907099
 33.png::CompressedTexture2D/CompressedTexture2D::2105403590861004961::1755907099::1755907099::1::::<><><>0<>0<>09a84ce9ef2d70c2da844755d69bcd3f<>res://.godot/imported/33.png-725f0852c3669689627c3f05722e404d.ctex::
@@ -843,8 +848,8 @@ RedPeaberry.fnt::FontFile/FontFile::542474929156169054::1755907099::1755907099::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/5. ShinyPeaberry/::1755907099
 ShinyPeaberry-preview.png::CompressedTexture2D/CompressedTexture2D::1624654291614331848::1755907099::1755907099::1::::<><><>0<>0<>c23a5b5bb2bd6359040e1590b424f4cb<>res://.godot/imported/ShinyPeaberry-preview.png-d023cd6675d7a5508fabbe8c625e706d.ctex::
 ShinyPeaberry.png::CompressedTexture2D/CompressedTexture2D::8768750130162956110::1755907099::1755907099::1::::<><><>0<>0<>8ff1b5d281d0a42fb4b8036b2248a022<>res://.godot/imported/ShinyPeaberry.png-b456078a67e5ccc3ef2f56382ed3ac5b.ctex::
-ShinyPeaberry.txt::TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
-ShinyPeaberry.xml::TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
+ShinyPeaberry.txt::TextFile/TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
+ShinyPeaberry.xml::TextFile/TextFile::-1::1755907099::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/5. ShinyPeaberry/ShinyPeaberry Sprite Kit/::1755907099
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/5. ShinyPeaberry/ShinyPeaberry Sprite Kit/ShinyPeaberry.atlas/::1755907099
 33.png::CompressedTexture2D/CompressedTexture2D::3637676279621970247::1755907099::1755907099::1::::<><><>0<>0<>bd1c23523ccc911d1c8234f5d12084bf<>res://.godot/imported/33.png-a7b74232b06b1d1f289562545dd6d536.ctex::
@@ -948,7 +953,7 @@ ShinyPeaberry.fnt::FontFile/FontFile::3118499644027626866::1755907099::175590709
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/6. GoldPeaberry/::1755907100
 GoldPeaberry-preview.png::CompressedTexture2D/CompressedTexture2D::6216922876637238615::1755907100::1755907100::1::::<><><>0<>0<>f997acfc8e5c36ddb12e928acbe9d44d<>res://.godot/imported/GoldPeaberry-preview.png-57424c099c52d83e5bbe7467594e5cc2.ctex::
 GoldPeaberry.png::CompressedTexture2D/CompressedTexture2D::4547574851964539834::1755907100::1755907100::1::::<><><>0<>0<>f039ab38ef2c41cb5306a772383ab109<>res://.godot/imported/GoldPeaberry.png-1c3497f7c0240fbb252dd79c54e21a67.ctex::
-GoldPeaberry.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+GoldPeaberry.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/6. GoldPeaberry/Gold Peaberry Sprite Kit/::1755907100
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/6. GoldPeaberry/Gold Peaberry Sprite Kit/GoldPeaberry.atlas/::1755907100
 33.png::CompressedTexture2D/CompressedTexture2D::6499320574674171743::1755907099::1755907099::1::::<><><>0<>0<>bf4c050d7086a1dcce7b95cf14a28df9<>res://.godot/imported/33.png-ead91672a736f8597da84d486bfa847a.ctex::
@@ -1046,9 +1051,9 @@ GoldPeaberry.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 125.png::CompressedTexture2D/CompressedTexture2D::2790206685727077844::1755907099::1755907099::1::::<><><>0<>0<>77aa910a4764c9b97eb22d12c6052257<>res://.godot/imported/125.png-ac0d33a5d83d772daab497c8b4a1bee8.ctex::
 126.png::CompressedTexture2D/CompressedTexture2D::2236204268965264495::1755907099::1755907099::1::::<><><>0<>0<>293afe8869791071c949f3b6c3acb050<>res://.godot/imported/126.png-de3a92da03c589de361eed7835ccc41e.ctex::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/6. GoldPeaberry/GoldPeaberry Normal Map Pack/::1755907100
-GoldPeaberry.json::JSON::-1::1755907100::0::1::::<><><>0<>0<><>::
+GoldPeaberry.json::JSON/JSON::-1::1755907100::0::1::::<><><>0<>0<><>::
 GoldPeaberry.png::CompressedTexture2D/CompressedTexture2D::5041026223623361467::1755907100::1755907100::1::::<><><>0<>0<>419b1373fa2d352b545b2d4fe52189bc<>res://.godot/imported/GoldPeaberry.png-68cfa76e1b805234a41d006c9c2190b2.ctex::
-GoldPeaberry.xml::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+GoldPeaberry.xml::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 GoldPeaberry_n.png::CompressedTexture2D/CompressedTexture2D::5761427978463442123::1755907100::1755907100::1::::<><><>0<>0<>3eeda776838ed9f51e5912a986930255<>res://.godot/imported/GoldPeaberry_n.png-a7976e5f4f4c95a7df918f89003f0add.ctex::
 ::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Bitmap Fonts/6. GoldPeaberry/GoldPeaberry.fnt (BMFont Text)/::1755907100
 GoldPeaberry.fnt::FontFile/FontFile::9082753892393715044::1755907100::1755907100::0::::<><><>0<>0<>857ea66c3ee25f759d6bf9ef72e16bb9<>::
@@ -1081,7 +1086,7 @@ shop sign.png::CompressedTexture2D/CompressedTexture2D::1281626420545472928::175
 atlas_16x.png::CompressedTexture2D/CompressedTexture2D::8937668779131628830::1755907100::1755907100::1::::<><><>0<>0<>4e4ee2207b5fe5d7435359e8142a8787<>res://.godot/imported/atlas_16x.png-552922f4d8b5850068a9de53462537d6.ctex::
 atlas_32x.png::CompressedTexture2D/CompressedTexture2D::9017484418835210013::1755907100::1755907100::1::::<><><>0<>0<>e351cc6577c151d350911b0ebb94b0eb<>res://.godot/imported/atlas_32x.png-ced5d087b1080623221f432b6a5bb77e.ctex::
 atlas_48x.png::CompressedTexture2D/CompressedTexture2D::6568178015353591371::1755907100::1755907100::1::::<><><>0<>0<>5f51bbfee750143ad517aec2c0a66599<>res://.godot/imported/atlas_48x.png-5254435d4b75a88555e043d02cb5c7f1.ctex::
-README.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+README.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/tilesets/Gif - Super Retro World tileset/animation/::1755907100
 chest_001.png::CompressedTexture2D/CompressedTexture2D::7284255169670217534::1755907100::1755907100::1::::<><><>0<>0<>a3564023c5ad717f5b4446380cd72cc3<>res://.godot/imported/chest_001.png-30c09152907a1e5c53eacf6897b2bfd4.ctex::
 chest_002.png::CompressedTexture2D/CompressedTexture2D::3398007883321792520::1755907100::1755907100::1::::<><><>0<>0<>d306ed7170879c191c36484dbdea4f2e<>res://.godot/imported/chest_002.png-996f61098c76436069e2cfaf51d83768.ctex::
@@ -1115,7 +1120,7 @@ tileset_D.png::CompressedTexture2D/CompressedTexture2D::1565724602694366225::175
 ::res://imgs/tilesets/Gif - Super Retro World tileset/unity/::1755907100
 ::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/::1755907100
 color palette.png::CompressedTexture2D/CompressedTexture2D::5662089938180896056::1755907100::1755907100::1::::<><><>0<>0<>ca1acbfd401ab9e555b71e32079fbac7<>res://.godot/imported/color palette.png-91e7b5ab0391d93f8b825a4f138627cd.ctex::
-Read Me.txt::TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
+Read Me.txt::TextFile/TextFile::-1::1755907100::0::1::::<><><>0<>0<><>::
 ::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/::1755907100
 Bridge - wood.png::CompressedTexture2D/CompressedTexture2D::4378693855495167462::1755907100::1755907100::1::::<><><>0<>0<>30b345f047e0ad3021ea365c847716a3<>res://.godot/imported/Bridge - wood.png-23bb76d985ae97bfc1f1853fd2eaf82f.ctex::
 Bush.png::CompressedTexture2D/CompressedTexture2D::2903791597597330510::1755907100::1755907100::1::::<><><>0<>0<>f28554234307205eca1c8d18c5a33213<>res://.godot/imported/Bush.png-09f2a783ce987cd85f84edaf430ef85b.ctex::
@@ -1151,52 +1156,50 @@ winter.png::CompressedTexture2D/CompressedTexture2D::1358932398541497438::175590
 water - fall.png::CompressedTexture2D/CompressedTexture2D::6630643439625766580::1755907100::1755907100::1::::<><><>0<>0<>71794c53a860140c0bde741c3f4cbaa1<>res://.godot/imported/water - fall.png-c9e7e4bf83255eafd92122aadc7b5b9a.ctex::
 water - spring.png::CompressedTexture2D/CompressedTexture2D::4955257677892681019::1755907100::1755907100::1::::<><><>0<>0<>08bc61233be162868d27846727bd1e7c<>res://.godot/imported/water - spring.png-742e59dcc3394e22afd8929d539f9d99.ctex::
 water - summer.png::CompressedTexture2D/CompressedTexture2D::7147931627513477477::1755907100::1755907100::1::::<><><>0<>0<>c34a3f53ec3de6e30aafecf92bb13862<>res://.godot/imported/water - summer.png-4f2269556609de2dd107193d41f4af16.ctex::
-::res://music/::1755950352
-ambient music.wav::AudioStreamWAV::4795639866174912237::1755948645::1755950428::1::::<><><>0<>0<>b62daebc9f1afacb6a371f9326315e19<>res://.godot/imported/ambient music.wav-de6394a40e3d6c83a542f32801e54952.sample::
-introoutro.wav::AudioStreamWAV::7671489672733917604::1755948645::1755950352::1::::<><><>0<>0<>a8911e7b26f8380eda78e5479e9919c3<>res://.godot/imported/introoutro.wav-cb370a40bec3846578bff7e236ac4df9.sample::
-queen music.wav::AudioStreamWAV::3818124725745268185::1755948645::1755950402::1::::<><><>0<>0<>f074b1bd837125309bd8fc16cd4e116b<>res://.godot/imported/queen music.wav-ad255f160f5d7903bf7747dd3e9d7f77.sample::
-::res://scenes/::1755950367
-argue_with_witch.tscn::PackedScene::3299485000055517552::1755950365::0::1::::<><><>0<>0<><>::uid://cgdskgmn1voau::::res://Scripts/set_argue_with_witch_cam.gd<>uid://757ymc1pebj7::::res://imgs/backgrounds/forestimg.jpeg<>uid://ltt5sytxlwk4::::res://scenes/evil.tscn<>uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://hjfx7rpleswd::::res://imgs/buttons/pink long.png<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://bxah706yblhn7::::res://Scripts/argue_with_witch.gd<>uid://bmtkel124exny::::res://imgs/buttons/pink frame.png<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://clxnf4487x1nd::::res://scenes/sound.tscn
-castle.tscn::PackedScene::8999656191419884441::1755950366::0::1::::<><><>0<>0<><>::uid://d3dw72ummf0yr::::res://Scripts/castle.gd<>uid://d2oby34lr5d11::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Tree.png<>uid://bhmva2ajbmh2m::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Bush.png<>uid://bq4k78t338c3f::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Grass.png<>uid://bdv7hqh3n7vm0::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/summer.png<>uid://cu6wrqpoln3x::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Other.png<>uid://dugiydklnreab::::res://imgs/backgrounds/castleimg_pink.jpeg<>uid://li2bsptde55t::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/dirt.png<>uid://b1yom1avpjyq1::::res://scenes/queen.tscn<>uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://dka56kwomlgrq::::res://scenes/queen_music.tscn
-credits.tscn::PackedScene::5797899498596321148::1755950366::0::1::::<><><>0<>0<><>::uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://clv8p8jii57jd::::res://imgs/backgrounds/credits_screen_background.png<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://dsm4frbmmx3jp::::res://Scripts/credits camera.gd<>uid://dk4tm4pslk7u3::::res://scenes/intro_outro muc=sic.tscn
-dialogue_with_queen.tscn::PackedScene::3668643092882238809::1755950365::0::1::::<><><>0<>0<><>::uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://uvaewec76pub::::res://Scripts/dialogue_with_queen.gd<>uid://b1yom1avpjyq1::::res://scenes/queen.tscn<>uid://dugiydklnreab::::res://imgs/backgrounds/castleimg_pink.jpeg<>uid://hjfx7rpleswd::::res://imgs/buttons/pink long.png<>uid://bmtkel124exny::::res://imgs/buttons/pink frame.png<>uid://bf5pbaldiykps::::res://Scripts/queen_dialogue_text.gd<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://dka56kwomlgrq::::res://scenes/queen_music.tscn
-ending_scene.tscn::PackedScene::8124860145518053479::1755950365::0::1::::<><><>0<>0<><>::uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://d4ihx5ipoxgtg::::res://imgs/backgrounds/intro screen.jpeg<>uid://dijw8tmrl0wg7::::res://Scripts/ending_scene.gd<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://hjfx7rpleswd::::res://imgs/buttons/pink long.png<>uid://dka56kwomlgrq::::res://scenes/queen_music.tscn
-evil.tscn::PackedScene::812508637415277169::1755950364::0::1::::<><><>0<>0<><>::uid://f64hpjn6v6wi::::res://Scripts/witch.gd<>uid://cq71q8tgu7uxr::::res://imgs/characters/withc_but_small.png<>uid://dx2k48p0dnbpa::::res://imgs/characters/witch.png
-fairy shop.tscn::PackedScene::1922363209239909656::1755950364::0::1::::<><><>0<>0<><>::uid://jahqelh6466l::::res://Scripts/fairy.gd<>uid://d0lqdmon683py::::res://imgs/tilesets/Gif - Super Retro World tileset/atlas_16x.png<>uid://isp75s7ewo6p::::res://scenes/fairy.tscn<>uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://hjfx7rpleswd::::res://imgs/buttons/pink long.png<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://bmtkel124exny::::res://imgs/buttons/pink frame.png<>uid://bw8exqvab1blm::::res://Scripts/dialogue_with_fairy.gd<>uid://clxnf4487x1nd::::res://scenes/sound.tscn
-fairy.tscn::PackedScene::599639053940933333::1755950364::0::1::::<><><>0<>0<><>::uid://do8gwe5kfkr3h::::res://imgs/characters/minisadkafnal.png
-introduction.tscn::PackedScene::7520601757767059699::1755950366::0::1::::<><><>0<>0<><>::uid://d4ihx5ipoxgtg::::res://imgs/backgrounds/intro screen.jpeg<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://c8p3hepn4w6jw::::res://Scripts/intro_text.gd<>uid://bmtkel124exny::::res://imgs/buttons/pink frame.png<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://dk4tm4pslk7u3::::res://scenes/intro_outro muc=sic.tscn
-player.tscn::PackedScene::3254635377103072567::1755950364::0::1::::<><><>0<>0<><>::uid://c4kxwel3f1871::::res://Scripts/player.gd<>uid://1bcf0g8pck3a::::res://imgs/characters/you.png<>uid://butrw3kt6qtrs::::res://imgs/characters/vn_player.png<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn
-queen.tscn::PackedScene::4261748518386641650::1755950365::0::1::::<><><>0<>0<><>::uid://beaabhnm6lr6a::::res://Scripts/queen.gd<>uid://cnatp50gl0o06::::res://imgs/characters/queen_but_small_left.png<>uid://cdbdn7oqm3j8s::::res://imgs/characters/vn_queen.png<>uid://dwnqtg2fy8owk::::res://imgs/characters/queen_but_small.png
-intro_outro muc=sic.tscn::PackedScene::7922194041898970564::1755950367::0::1::::<><><>0<>0<><>::uid://bm73hlgo47e0w::::res://Scripts/music.gd<>uid://dhkekxdbpsr5e::::res://music/introoutro.wav
-queen_music.tscn::PackedScene::7863027916725443138::1755950413::0::1::::<><><>0<>0<><>::uid://bm73hlgo47e0w::::res://Scripts/music.gd<>uid://bunr7rujdua8h::::res://music/queen music.wav
-skip_to_scene.tscn::PackedScene::3451363111392796600::1755950365::0::1::::<><><>0<>0<><>::uid://dyxlh26bn46by::::res://skip to starting forest.gd<>uid://c2pmwbs85okc8::::res://Scripts/skip_to_scene_buttons.gd<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf
-sound.tscn::PackedScene::5593199155142970173::1755950366::0::1::::<><><>0<>0<><>::uid://bm73hlgo47e0w::::res://Scripts/music.gd<>uid://calbqucfliegb::::res://music/ambient music.wav
-starting screen.tscn::PackedScene::5508301658308886324::1755950364::0::1::::<><><>0<>0<><>::uid://ctxxlqsksuqxg::::res://Scripts/starting_screen.gd<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://bv8mkm15gg6t5::::res://Scripts/label.gd<>uid://8ksk566xtga8::::res://imgs/backgrounds/Starting screen.jpeg<>uid://hjfx7rpleswd::::res://imgs/buttons/pink long.png<>uid://c2pmwbs85okc8::::res://Scripts/skip_to_scene_buttons.gd<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://btxp4qaod03ej::::res://imgs/arrow keys.jpeg<>uid://d33b2dcyr146a::::res://imgs/mouse.jpeg
-startingscreen_real.tscn::PackedScene::9045075987383260774::1755907100::0::1::::<><><>0<>0<><>::uid://ckqi6nu17mvq7::::res://scenes/starting screen.tscn
-starting_forest.tscn::PackedScene::2398855265710949848::1755950364::0::1::::<><><>0<>0<><>::uid://4s7oi0tdj8l5::::res://Scripts/starting_forest.gd<>uid://li2bsptde55t::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/dirt.png<>uid://bdv7hqh3n7vm0::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/summer.png<>uid://bhmva2ajbmh2m::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Bush.png<>uid://si3g2c2pqysm::::res://imgs/tilesets/shop sign.png<>uid://c1r272v3ast0p::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Flower.png<>uid://bq4k78t338c3f::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Grass.png<>uid://cu6wrqpoln3x::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Other.png<>uid://0uuf11foa77l::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Stone and Rock.png<>uid://d2oby34lr5d11::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Tree.png<>uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://dw51el4abqqkp::::res://imgs/tilesets/fairy shop.png<>uid://clxnf4487x1nd::::res://scenes/sound.tscn
-witch_forest.tscn::PackedScene::9062323414974634981::1755950366::0::1::::<><><>0<>0<><>::uid://bb7ir6nwfcily::::res://Scripts/witch_forest.gd<>uid://bdv7hqh3n7vm0::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/summer.png<>uid://li2bsptde55t::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/dirt.png<>uid://d4nr6akupelfo::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/Extras/texture.png<>uid://bhmva2ajbmh2m::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Bush.png<>uid://d2oby34lr5d11::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Tree.png<>uid://cu6wrqpoln3x::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Other.png<>uid://bq4k78t338c3f::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Grass.png<>uid://d0lqdmon683py::::res://imgs/tilesets/Gif - Super Retro World tileset/atlas_16x.png<>uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://ltt5sytxlwk4::::res://scenes/evil.tscn<>uid://clxnf4487x1nd::::res://scenes/sound.tscn
-::res://Scripts/::1755948884
-argue_with_witch.gd::GDScript::4001247613787085726::1755907098::0::1::::<>Label<><>0<>0<><>::
-buttonTest.gd::GDScript::2242426493941108895::1755907098::0::1::::<>TextureButton<><>0<>0<><>::
-button_2.gd::GDScript::3618696654773942215::1755907098::0::1::::<>TextureButton<><>0<>0<><>::
-castle.gd::GDScript::9132137175040237709::1755907098::0::1::::<>Node2D<><>0<>0<><>::
-credits camera.gd::GDScript::8449204386376309993::1755907098::0::1::::<>Node2D<><>0<>0<><>::
-dialogue_with_fairy.gd::GDScript::3998984523661519398::1755907098::0::1::::<>Label<><>0<>0<><>::
-dialogue_with_queen.gd::GDScript::1447137110599313437::1755907098::0::1::::<>Node2D<><>0<>0<><>::
-ending_scene.gd::GDScript::7740747922279239900::1755907098::0::1::::<>Node2D<><>0<>0<><>::
-fairy.gd::GDScript::632153411841035293::1755907098::0::1::::<>Node2D<><>0<>0<><>::
-Game.gd::GDScript::6872694929727320926::1755907098::0::1::::<>Node2D<><>0<>0<><>::
+::res://music/::1755950428
+ambient music.wav::AudioStreamWAV/AudioStreamWAV::4795639866174912237::1755948645::1755950428::1::::<><><>0<>0<>b62daebc9f1afacb6a371f9326315e19<>res://.godot/imported/ambient music.wav-de6394a40e3d6c83a542f32801e54952.sample::
+introoutro.wav::AudioStreamWAV/AudioStreamWAV::7671489672733917604::1755948645::1755950352::1::::<><><>0<>0<>a8911e7b26f8380eda78e5479e9919c3<>res://.godot/imported/introoutro.wav-cb370a40bec3846578bff7e236ac4df9.sample::
+queen music.wav::AudioStreamWAV/AudioStreamWAV::3818124725745268185::1755948645::1755950402::1::::<><><>0<>0<>f074b1bd837125309bd8fc16cd4e116b<>res://.godot/imported/queen music.wav-ad255f160f5d7903bf7747dd3e9d7f77.sample::
+::res://scenes/::1755970648
+argue_with_witch.tscn::PackedScene::3299485000055517552::1755970646::0::1::::<><><>0<>0<><>::uid://cgdskgmn1voau::::res://Scripts/set_argue_with_witch_cam.gd<>uid://757ymc1pebj7::::res://imgs/backgrounds/forestimg.jpeg<>uid://ltt5sytxlwk4::::res://scenes/evil.tscn<>uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://hjfx7rpleswd::::res://imgs/buttons/pink long.png<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://bxah706yblhn7::::res://Scripts/argue_with_witch.gd<>uid://bmtkel124exny::::res://imgs/buttons/pink frame.png<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://clxnf4487x1nd::::res://scenes/sound.tscn
+castle.tscn::PackedScene::8999656191419884441::1755970647::0::1::::<><><>0<>0<><>::uid://d3dw72ummf0yr::::res://Scripts/castle.gd<>uid://d2oby34lr5d11::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Tree.png<>uid://bhmva2ajbmh2m::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Bush.png<>uid://bq4k78t338c3f::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Grass.png<>uid://bdv7hqh3n7vm0::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/summer.png<>uid://cu6wrqpoln3x::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Other.png<>uid://dugiydklnreab::::res://imgs/backgrounds/castleimg_pink.jpeg<>uid://li2bsptde55t::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/dirt.png<>uid://b1yom1avpjyq1::::res://scenes/queen.tscn<>uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://dka56kwomlgrq::::res://scenes/queen_music.tscn
+credits.tscn::PackedScene::5797899498596321148::1755970647::0::1::::<><><>0<>0<><>::uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://clv8p8jii57jd::::res://imgs/backgrounds/credits_screen_background.png<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://dsm4frbmmx3jp::::res://Scripts/credits camera.gd<>uid://dk4tm4pslk7u3::::res://scenes/intro_outro muc=sic.tscn
+dialogue_with_queen.tscn::PackedScene::3668643092882238809::1755970646::0::1::::<><><>0<>0<><>::uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://uvaewec76pub::::res://Scripts/dialogue_with_queen.gd<>uid://b1yom1avpjyq1::::res://scenes/queen.tscn<>uid://dugiydklnreab::::res://imgs/backgrounds/castleimg_pink.jpeg<>uid://hjfx7rpleswd::::res://imgs/buttons/pink long.png<>uid://bmtkel124exny::::res://imgs/buttons/pink frame.png<>uid://bf5pbaldiykps::::res://Scripts/queen_dialogue_text.gd<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://dka56kwomlgrq::::res://scenes/queen_music.tscn
+ending_scene.tscn::PackedScene::8124860145518053479::1755970646::0::1::::<><><>0<>0<><>::uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://d4ihx5ipoxgtg::::res://imgs/backgrounds/intro screen.jpeg<>uid://dijw8tmrl0wg7::::res://Scripts/ending_scene.gd<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://hjfx7rpleswd::::res://imgs/buttons/pink long.png<>uid://dka56kwomlgrq::::res://scenes/queen_music.tscn
+evil.tscn::PackedScene::812508637415277169::1755970644::0::1::::<><><>0<>0<><>::uid://f64hpjn6v6wi::::res://Scripts/witch.gd<>uid://cq71q8tgu7uxr::::res://imgs/characters/withc_but_small.png<>uid://dx2k48p0dnbpa::::res://imgs/characters/witch.png
+fairy shop.tscn::PackedScene::1922363209239909656::1755970644::0::1::::<><><>0<>0<><>::uid://jahqelh6466l::::res://Scripts/fairy.gd<>uid://d0lqdmon683py::::res://imgs/tilesets/Gif - Super Retro World tileset/atlas_16x.png<>uid://isp75s7ewo6p::::res://scenes/fairy.tscn<>uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://hjfx7rpleswd::::res://imgs/buttons/pink long.png<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://bmtkel124exny::::res://imgs/buttons/pink frame.png<>uid://bw8exqvab1blm::::res://Scripts/dialogue_with_fairy.gd<>uid://clxnf4487x1nd::::res://scenes/sound.tscn
+fairy.tscn::PackedScene::599639053940933333::1755970645::0::1::::<><><>0<>0<><>::uid://do8gwe5kfkr3h::::res://imgs/characters/minisadkafnal.png
+introduction.tscn::PackedScene::7520601757767059699::1755970646::0::1::::<><><>0<>0<><>::uid://d4ihx5ipoxgtg::::res://imgs/backgrounds/intro screen.jpeg<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://c8p3hepn4w6jw::::res://Scripts/intro_text.gd<>uid://bmtkel124exny::::res://imgs/buttons/pink frame.png<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://dk4tm4pslk7u3::::res://scenes/intro_outro muc=sic.tscn
+intro_outro muc=sic.tscn::PackedScene::7922194041898970564::1755970647::0::1::::<><><>0<>0<><>::uid://bm73hlgo47e0w::::res://Scripts/music.gd<>uid://dhkekxdbpsr5e::::res://music/introoutro.wav
+player.tscn::PackedScene::3254635377103072567::1755970644::0::1::::<><><>0<>0<><>::uid://c4kxwel3f1871::::res://Scripts/player.gd<>uid://1bcf0g8pck3a::::res://imgs/characters/you.png<>uid://butrw3kt6qtrs::::res://imgs/characters/vn_player.png<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn
+queen.tscn::PackedScene::4261748518386641650::1755970645::0::1::::<><><>0<>0<><>::uid://beaabhnm6lr6a::::res://Scripts/queen.gd<>uid://cnatp50gl0o06::::res://imgs/characters/queen_but_small_left.png<>uid://cdbdn7oqm3j8s::::res://imgs/characters/vn_queen.png<>uid://dwnqtg2fy8owk::::res://imgs/characters/queen_but_small.png
+queen_music.tscn::PackedScene::7863027916725443138::1755970647::0::1::::<><><>0<>0<><>::uid://bm73hlgo47e0w::::res://Scripts/music.gd<>uid://bunr7rujdua8h::::res://music/queen music.wav
+skip_to_scene.tscn::PackedScene::3451363111392796600::1755970646::0::1::::<><><>0<>0<><>::uid://c2pmwbs85okc8::::res://Scripts/skip_to_scene_buttons.gd<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf
+sound.tscn::PackedScene::5593199155142970173::1755970647::0::1::::<><><>0<>0<><>::uid://bm73hlgo47e0w::::res://Scripts/music.gd<>uid://calbqucfliegb::::res://music/ambient music.wav
+starting screen.tscn::PackedScene::5508301658308886324::1755970644::0::1::::<><><>0<>0<><>::uid://ctxxlqsksuqxg::::res://Scripts/starting_screen.gd<>uid://cc2iar17gn74r::::res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf<>uid://8ksk566xtga8::::res://imgs/backgrounds/Starting screen.jpeg<>uid://hjfx7rpleswd::::res://imgs/buttons/pink long.png<>uid://bpf4pf2hlwx73::::res://scenes/skip_to_scene.tscn<>uid://btxp4qaod03ej::::res://imgs/arrow keys.jpeg<>uid://d33b2dcyr146a::::res://imgs/mouse.jpeg<>uid://dk4tm4pslk7u3::::res://scenes/intro_outro muc=sic.tscn
+startingscreen_real.tscn::PackedScene::9045075987383260774::1755970648::0::1::::<><><>0<>0<><>::uid://ckqi6nu17mvq7::::res://scenes/starting screen.tscn
+starting_forest.tscn::PackedScene::2398855265710949848::1755970645::0::1::::<><><>0<>0<><>::uid://4s7oi0tdj8l5::::res://Scripts/starting_forest.gd<>uid://li2bsptde55t::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/dirt.png<>uid://bdv7hqh3n7vm0::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/summer.png<>uid://bhmva2ajbmh2m::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Bush.png<>uid://si3g2c2pqysm::::res://imgs/tilesets/shop sign.png<>uid://c1r272v3ast0p::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Flower.png<>uid://bq4k78t338c3f::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Grass.png<>uid://cu6wrqpoln3x::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Other.png<>uid://0uuf11foa77l::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Stone and Rock.png<>uid://d2oby34lr5d11::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Tree.png<>uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://dw51el4abqqkp::::res://imgs/tilesets/fairy shop.png<>uid://clxnf4487x1nd::::res://scenes/sound.tscn
+witch_forest.tscn::PackedScene::9062323414974634981::1755970646::0::1::::<><><>0<>0<><>::uid://bb7ir6nwfcily::::res://Scripts/witch_forest.gd<>uid://bdv7hqh3n7vm0::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/summer.png<>uid://li2bsptde55t::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/dirt.png<>uid://d4nr6akupelfo::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/Extras/texture.png<>uid://bhmva2ajbmh2m::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Bush.png<>uid://d2oby34lr5d11::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Tree.png<>uid://cu6wrqpoln3x::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Other.png<>uid://bq4k78t338c3f::::res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Grass.png<>uid://d0lqdmon683py::::res://imgs/tilesets/Gif - Super Retro World tileset/atlas_16x.png<>uid://bmmtms0gb2sd8::::res://scenes/player.tscn<>uid://ltt5sytxlwk4::::res://scenes/evil.tscn<>uid://clxnf4487x1nd::::res://scenes/sound.tscn
+::res://Scripts/::1755962918
+argue_with_witch.gd::GDScript/GDScript::4001247613787085726::1755907098::0::1::::<>Label<><>0<>0<><>::
+castle.gd::GDScript/GDScript::9132137175040237709::1755907098::0::1::::<>Node2D<><>0<>0<><>::
+credits camera.gd::GDScript/GDScript::8449204386376309993::1755907098::0::1::::<>Node2D<><>0<>0<><>::
+dialogue_with_fairy.gd::GDScript/GDScript::3998984523661519398::1755907098::0::1::::<>Label<><>0<>0<><>::
+dialogue_with_queen.gd::GDScript/GDScript::1447137110599313437::1755907098::0::1::::<>Node2D<><>0<>0<><>::
+ending_scene.gd::GDScript/GDScript::7740747922279239900::1755907098::0::1::::<>Node2D<><>0<>0<><>::
+fairy.gd::GDScript/GDScript::632153411841035293::1755907098::0::1::::<>Node2D<><>0<>0<><>::
+Game.gd::GDScript/GDScript::6872694929727320926::1755907098::0::1::::<>Node2D<><>0<>0<><>::
 global.gd::GDScript::4361376098891655675::1755947688::0::1::::<>Node<><>0<>0<><>::
-intro_text.gd::GDScript::7121751684002744612::1755907098::0::1::::<>Label<><>0<>0<><>::
-label.gd::GDScript::3929257999644469872::1755907098::0::1::::<>Label<><>0<>0<><>::
-nextSceneButton.gd::GDScript::6501491728172460875::1755907098::0::1::::<>Area2D<><>0<>0<><>::
-player.gd::GDScript::6830397617095459262::1755907098::0::1::::<>CharacterBody2D<><>0<>0<><>::
-queen.gd::GDScript::2667178232372148458::1755907098::0::1::::<>CharacterBody2D<><>0<>0<><>::
-queen_dialogue_text.gd::GDScript::2800208792331259032::1755907098::0::1::::<>Label<><>0<>0<><>::
-music.gd::GDScript::3296460059535988744::1755948884::0::1::::<>Node<><>0<>0<><>::
-set_argue_with_witch_cam.gd::GDScript::5201278660589421748::1755907098::0::1::::<>Node2D<><>0<>0<><>::
-skip_to_scene_buttons.gd::GDScript::6699673785172929021::1755907098::0::1::::<>OptionButton<><>0<>0<><>::
-starting_forest.gd::GDScript::2074603669633796400::1755907098::0::1::::<>Node2D<><>0<>0<><>::
-starting_screen.gd::GDScript::6155327088078070228::1755907098::0::1::::<>Control<><>0<>0<><>::
-witch.gd::GDScript::416714024300017512::1755907098::0::1::::<>CharacterBody2D<><>0<>0<><>::
-witch_forest.gd::GDScript::2523187359212222350::1755907098::0::1::::<>Node2D<><>0<>0<><>::
+intro_text.gd::GDScript/GDScript::7121751684002744612::1755907098::0::1::::<>Label<><>0<>0<><>::
+label.gd::GDScript/GDScript::3929257999644469872::1755907098::0::1::::<>Label<><>0<>0<><>::
+music.gd::GDScript::3296460059535988744::1755950470::0::1::::<>Node<><>0<>0<><>::
+nextSceneButton.gd::GDScript/GDScript::6501491728172460875::1755907098::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript/GDScript::6830397617095459262::1755907098::0::1::::<>CharacterBody2D<><>0<>0<><>::
+queen.gd::GDScript/GDScript::2667178232372148458::1755907098::0::1::::<>CharacterBody2D<><>0<>0<><>::
+queen_dialogue_text.gd::GDScript/GDScript::2800208792331259032::1755907098::0::1::::<>Label<><>0<>0<><>::
+set_argue_with_witch_cam.gd::GDScript/GDScript::5201278660589421748::1755907098::0::1::::<>Node2D<><>0<>0<><>::
+skip_to_scene_buttons.gd::GDScript/GDScript::6699673785172929021::1755907098::0::1::::<>OptionButton<><>0<>0<><>::
+starting_forest.gd::GDScript/GDScript::2074603669633796400::1755907098::0::1::::<>Node2D<><>0<>0<><>::
+starting_screen.gd::GDScript/GDScript::6155327088078070228::1755907098::0::1::::<>Control<><>0<>0<><>::
+witch.gd::GDScript/GDScript::416714024300017512::1755907098::0::1::::<>CharacterBody2D<><>0<>0<><>::
+witch_forest.gd::GDScript/GDScript::2523187359212222350::1755907098::0::1::::<>Node2D<><>0<>0<><>::

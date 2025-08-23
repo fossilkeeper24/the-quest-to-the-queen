@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dka56kwomlgrq"]
+
+[ext_resource type="Script" uid="uid://bm73hlgo47e0w" path="res://Scripts/music.gd" id="1_7n6ud"]
+[ext_resource type="AudioStream" uid="uid://bunr7rujdua8h" path="res://music/queen music.wav" id="1_77ap6"]
+
+[node name="queen music" type="Node"]
+script = ExtResource("1_7n6ud")
+
+[node name="queen music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_77ap6")
+autoplay = true

@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bsjeasg2xinif"]
+[gd_scene load_steps=12 format=3 uid="uid://bsjeasg2xinif"]
 
 [ext_resource type="PackedScene" uid="uid://bmmtms0gb2sd8" path="res://scenes/player.tscn" id="1_8kp0g"]
 [ext_resource type="Script" uid="uid://uvaewec76pub" path="res://Scripts/dialogue_with_queen.gd" id="1_lx771"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://bf5pbaldiykps" path="res://Scripts/queen_dialogue_text.gd" id="6_lx771"]
 [ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="6_nfyd1"]
 [ext_resource type="PackedScene" uid="uid://bpf4pf2hlwx73" path="res://scenes/skip_to_scene.tscn" id="9_q6atp"]
+[ext_resource type="PackedScene" uid="uid://dka56kwomlgrq" path="res://scenes/queen_music.tscn" id="10_eskrh"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_lx771"]
 font = ExtResource("6_nfyd1")
@@ -99,6 +100,8 @@ label_settings = SubResource("LabelSettings_lx771")
 position = Vector2(576, 325)
 
 [node name="skip to scene" parent="camera queen dialogue" instance=ExtResource("9_q6atp")]
+
+[node name="queen music" parent="." instance=ExtResource("10_eskrh")]
 
 [connection signal="pressed" from="Control/Next Button" to="Control/Dialogue" method="_on_texture_button_pressed"]
 [connection signal="pressed" from="Control/Next Button" to="Control/Dialogue" method="_on_next_button_pressed"]

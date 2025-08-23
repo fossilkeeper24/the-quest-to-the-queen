@@ -26,7 +26,7 @@ func _process(delta: float) -> void:
 	#print(current_scene)
 	
 func change_scene():
-	print(current_scene)
+	#print(current_scene)
 	if transition_scene == true:
 		if scene_want == "fairy shop":
 			get_tree().change_scene_to_file("res://scenes/fairy shop.tscn")

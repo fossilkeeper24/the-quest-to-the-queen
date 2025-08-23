@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bnakbhqvi7kmq"]
+[gd_scene load_steps=12 format=3 uid="uid://bnakbhqvi7kmq"]
 
 [ext_resource type="Script" uid="uid://cgdskgmn1voau" path="res://Scripts/set_argue_with_witch_cam.gd" id="1_wcpnx"]
 [ext_resource type="Texture2D" uid="uid://757ymc1pebj7" path="res://imgs/backgrounds/forestimg.jpeg" id="2_ew116"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://bxah706yblhn7" path="res://Scripts/argue_with_witch.gd" id="5_oobck"]
 [ext_resource type="Texture2D" uid="uid://bmtkel124exny" path="res://imgs/buttons/pink frame.png" id="6_wcpnx"]
 [ext_resource type="PackedScene" uid="uid://bpf4pf2hlwx73" path="res://scenes/skip_to_scene.tscn" id="9_ew116"]
+[ext_resource type="PackedScene" uid="uid://clxnf4487x1nd" path="res://scenes/sound.tscn" id="10_8vte2"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_ew116"]
 font = ExtResource("4_oobck")
@@ -99,6 +100,8 @@ label_settings = SubResource("LabelSettings_ew116")
 position = Vector2(576, 325)
 
 [node name="skip to scene" parent="camera queen dialogue" instance=ExtResource("9_ew116")]
+
+[node name="ambient music" parent="." instance=ExtResource("10_8vte2")]
 
 [connection signal="pressed" from="dialogue box/Next Button" to="dialogue box/Dialogue" method="_on_texture_button_pressed"]
 [connection signal="pressed" from="dialogue box/Next Button" to="dialogue box/Dialogue" method="_on_next_button_pressed"]

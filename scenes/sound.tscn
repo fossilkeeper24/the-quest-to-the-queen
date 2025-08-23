@@ -1,5 +1,11 @@
-[gd_scene format=3 uid="uid://clxnf4487x1nd"]
+[gd_scene load_steps=3 format=3 uid="uid://clxnf4487x1nd"]
 
-[node name="sound" type="Node"]
+[ext_resource type="Script" uid="uid://bm73hlgo47e0w" path="res://Scripts/music.gd" id="1_4lc31"]
+[ext_resource type="AudioStream" uid="uid://calbqucfliegb" path="res://music/ambient music.wav" id="1_ii1ul"]
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[node name="ambient music" type="Node"]
+script = ExtResource("1_4lc31")
+
+[node name="ambient music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_ii1ul")
+autoplay = true

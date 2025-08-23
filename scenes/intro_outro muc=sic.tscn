@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dk4tm4pslk7u3"]
+
+[ext_resource type="Script" uid="uid://bm73hlgo47e0w" path="res://Scripts/music.gd" id="1_6ndgn"]
+[ext_resource type="AudioStream" uid="uid://dhkekxdbpsr5e" path="res://music/introoutro.wav" id="1_hyxfm"]
+
+[node name="intro outro" type="Node"]
+script = ExtResource("1_6ndgn")
+
+[node name="intro_outro" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_hyxfm")
+autoplay = true

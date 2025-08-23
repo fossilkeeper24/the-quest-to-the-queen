@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://dn00i3a7k86jr"]
+[gd_scene load_steps=9 format=3 uid="uid://dn00i3a7k86jr"]
 
 [ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="1_0vjt2"]
 [ext_resource type="Texture2D" uid="uid://d4ihx5ipoxgtg" path="res://imgs/backgrounds/intro screen.jpeg" id="1_5gtp6"]
 [ext_resource type="Script" uid="uid://dijw8tmrl0wg7" path="res://Scripts/ending_scene.gd" id="1_i70nl"]
 [ext_resource type="PackedScene" uid="uid://bpf4pf2hlwx73" path="res://scenes/skip_to_scene.tscn" id="3_u14vp"]
 [ext_resource type="Texture2D" uid="uid://hjfx7rpleswd" path="res://imgs/buttons/pink long.png" id="4_agp5w"]
+[ext_resource type="PackedScene" uid="uid://dka56kwomlgrq" path="res://scenes/queen_music.tscn" id="6_qar6k"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_5gtp6"]
 font = ExtResource("1_0vjt2")
@@ -53,5 +54,7 @@ offset_right = 239.0
 offset_bottom = 75.0
 text = "Credits"
 label_settings = SubResource("LabelSettings_i70nl")
+
+[node name="queen music" parent="." instance=ExtResource("6_qar6k")]
 
 [connection signal="pressed" from="credits" to="." method="_on_credits_pressed"]

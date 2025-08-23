@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://d1hra1er3d2yf"]
+[gd_scene load_steps=19 format=3 uid="uid://d1hra1er3d2yf"]
 
 [ext_resource type="Script" uid="uid://d3dw72ummf0yr" path="res://Scripts/castle.gd" id="1_feow2"]
 [ext_resource type="Texture2D" uid="uid://d2oby34lr5d11" path="res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Props/Tree.png" id="1_jxdab"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://li2bsptde55t" path="res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/dirt.png" id="7_lbl1g"]
 [ext_resource type="PackedScene" uid="uid://b1yom1avpjyq1" path="res://scenes/queen.tscn" id="8_uplxu"]
 [ext_resource type="PackedScene" uid="uid://bmmtms0gb2sd8" path="res://scenes/player.tscn" id="9_feow2"]
+[ext_resource type="PackedScene" uid="uid://dka56kwomlgrq" path="res://scenes/queen_music.tscn" id="11_qd3ve"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_feow2"]
 texture = ExtResource("1_jxdab")
@@ -142,3 +143,5 @@ position = Vector2(393, 297)
 
 [node name="player" parent="." instance=ExtResource("9_feow2")]
 position = Vector2(387, 603)
+
+[node name="queen music" parent="." instance=ExtResource("11_qd3ve")]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://ckqi6nu17mvq7"]
+[gd_scene load_steps=14 format=3 uid="uid://ckqi6nu17mvq7"]
 
 [ext_resource type="Script" uid="uid://ctxxlqsksuqxg" path="res://Scripts/starting_screen.gd" id="1_02pex"]
 [ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="1_174jm"]
@@ -7,6 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://hjfx7rpleswd" path="res://imgs/buttons/pink long.png" id="4_nvfci"]
 [ext_resource type="Script" uid="uid://c2pmwbs85okc8" path="res://Scripts/skip_to_scene_buttons.gd" id="5_w5n24"]
 [ext_resource type="PackedScene" uid="uid://bpf4pf2hlwx73" path="res://scenes/skip_to_scene.tscn" id="7_op1ne"]
+[ext_resource type="Texture2D" uid="uid://btxp4qaod03ej" path="res://imgs/arrow keys.jpeg" id="8_ken5d"]
+[ext_resource type="Texture2D" uid="uid://d33b2dcyr146a" path="res://imgs/mouse.jpeg" id="9_uynd2"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_174jm"]
 font = ExtResource("1_174jm")
@@ -20,6 +22,10 @@ font_color = Color(0.956863, 0.670588, 0.670588, 1)
 [sub_resource type="LabelSettings" id="LabelSettings_02pex"]
 font = ExtResource("1_174jm")
 font_size = 32
+
+[sub_resource type="LabelSettings" id="LabelSettings_3a7p6"]
+font = ExtResource("1_174jm")
+font_size = 48
 
 [node name="starting screen" type="Control"]
 layout_mode = 3
@@ -127,6 +133,43 @@ text = "Credits"
 label_settings = SubResource("LabelSettings_op1ne")
 
 [node name="skip to scene" parent="." instance=ExtResource("7_op1ne")]
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 61.0
+offset_top = 308.0
+offset_right = 331.0
+offset_bottom = 356.0
+text = "Controls:"
+label_settings = SubResource("LabelSettings_3a7p6")
+
+[node name="TextureRect2" type="TextureRect" parent="Label2"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 77.0
+offset_right = 149.113
+offset_bottom = 161.0
+texture = ExtResource("8_ken5d")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="TextureRect" type="TextureRect" parent="Label2"]
+layout_mode = 0
+offset_left = 145.0
+offset_top = 68.0
+offset_right = 240.0
+offset_bottom = 164.0
+texture = ExtResource("9_uynd2")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="Label2" type="Label" parent="Label2"]
+offset_left = 8.0
+offset_top = 178.0
+offset_right = 278.0
+offset_bottom = 226.0
+text = "or AWSD"
+label_settings = SubResource("LabelSettings_3a7p6")
 
 [connection signal="pressed" from="start" to="." method="_on_start_pressed"]
 [connection signal="item_selected" from="skip/OptionButton" to="skip/OptionButton" method="_on_item_selected"]

@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://dffbhhjno344f"]
+[gd_scene load_steps=9 format=3 uid="uid://dffbhhjno344f"]
 
 [ext_resource type="Texture2D" uid="uid://d4ihx5ipoxgtg" path="res://imgs/backgrounds/intro screen.jpeg" id="1_tgans"]
 [ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="2_e3kje"]
 [ext_resource type="Script" uid="uid://c8p3hepn4w6jw" path="res://Scripts/intro_text.gd" id="3_e3kje"]
 [ext_resource type="Texture2D" uid="uid://bmtkel124exny" path="res://imgs/buttons/pink frame.png" id="4_nvvsg"]
 [ext_resource type="PackedScene" uid="uid://bpf4pf2hlwx73" path="res://scenes/skip_to_scene.tscn" id="5_xofpe"]
+[ext_resource type="PackedScene" uid="uid://dk4tm4pslk7u3" path="res://scenes/intro_outro muc=sic.tscn" id="6_e7oap"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_nvvsg"]
 font = ExtResource("2_e3kje")
@@ -83,6 +84,8 @@ text = "Prev"
 label_settings = SubResource("LabelSettings_xofpe")
 
 [node name="skip to scene" parent="." instance=ExtResource("5_xofpe")]
+
+[node name="intro outro" parent="." instance=ExtResource("6_e7oap")]
 
 [connection signal="pressed" from="TextureRect/intro text/buttons/Next Button" to="TextureRect/intro text" method="_on_next_button_pressed"]
 [connection signal="pressed" from="TextureRect/intro text/buttons/Prev Button" to="TextureRect/intro text" method="_on_prev_button_pressed"]

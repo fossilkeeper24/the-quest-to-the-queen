@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://couss7wgxdplc"]
+[gd_scene load_steps=9 format=3 uid="uid://couss7wgxdplc"]
 
 [ext_resource type="FontFile" uid="uid://cc2iar17gn74r" path="res://imgs/fonts/Peaberry-Font-v2.0/Peaberry Font Family/Peaberry Doublespace/Peaberry-Doublespace.otf" id="1_0bpdh"]
 [ext_resource type="Texture2D" uid="uid://clv8p8jii57jd" path="res://imgs/backgrounds/credits_screen_background.png" id="1_2ckv8"]
 [ext_resource type="PackedScene" uid="uid://bpf4pf2hlwx73" path="res://scenes/skip_to_scene.tscn" id="3_0ctdu"]
 [ext_resource type="Script" uid="uid://dsm4frbmmx3jp" path="res://Scripts/credits camera.gd" id="3_2fbfq"]
+[ext_resource type="PackedScene" uid="uid://dk4tm4pslk7u3" path="res://scenes/intro_outro muc=sic.tscn" id="5_8gwij"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_2ckv8"]
 font = ExtResource("1_0bpdh")
@@ -65,7 +66,8 @@ hana caraka topdown tileset on itch.io
 
 Image of forest:
 https://unsplash.com/photos/photography-of-tall-trees-at-daytime-MMJx78V7xS8
-"
+
+anything that wasnt an asset listed was made by us :)"
 label_settings = SubResource("LabelSettings_0ctdu")
 autowrap_mode = 2
 
@@ -83,3 +85,5 @@ rotation = 1.5708
 
 [node name="skip to scene" parent="Path2D/PathFollow2D/Camera2D" instance=ExtResource("3_0ctdu")]
 position = Vector2(-597, -330)
+
+[node name="intro outro" parent="." instance=ExtResource("5_8gwij")]

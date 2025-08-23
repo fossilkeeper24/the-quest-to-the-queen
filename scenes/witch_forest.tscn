@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://d2d4e34vy2s4l"]
+[gd_scene load_steps=24 format=3 uid="uid://d2d4e34vy2s4l"]
 
 [ext_resource type="Script" uid="uid://bb7ir6nwfcily" path="res://Scripts/witch_forest.gd" id="1_4h04c"]
 [ext_resource type="Texture2D" uid="uid://bdv7hqh3n7vm0" path="res://imgs/tilesets/Hana Caraka - Topdown Tileset [sample]/Tileset/Seasonal/summer.png" id="1_6cabj"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://d0lqdmon683py" path="res://imgs/tilesets/Gif - Super Retro World tileset/atlas_16x.png" id="8_kir12"]
 [ext_resource type="PackedScene" uid="uid://bmmtms0gb2sd8" path="res://scenes/player.tscn" id="9_xa23r"]
 [ext_resource type="PackedScene" uid="uid://ltt5sytxlwk4" path="res://scenes/evil.tscn" id="10_70qtc"]
+[ext_resource type="PackedScene" uid="uid://clxnf4487x1nd" path="res://scenes/sound.tscn" id="12_m6viw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_clbgn"]
 texture = ExtResource("1_6cabj")
@@ -231,6 +232,8 @@ shape = SubResource("RectangleShape2D_70qtc")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="starting forest detect"]
 position = Vector2(286, 652.5)
 shape = SubResource("RectangleShape2D_4h04c")
+
+[node name="ambient music" parent="." instance=ExtResource("12_m6viw")]
 
 [connection signal="body_entered" from="castle detect" to="." method="_on_castle_detect_body_entered"]
 [connection signal="body_exited" from="castle detect" to="." method="_on_castle_detect_body_exited"]

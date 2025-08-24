@@ -1,4 +1,4 @@
-# the-quest-to-the-queen
+# The Quest to the Queen
 thanks to girls got game game jam for hosting the game jam
 
 ## What is it?

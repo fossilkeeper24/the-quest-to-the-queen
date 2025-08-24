@@ -3,7 +3,7 @@ thanks to girls got game game jam for hosting the game jam
 
 ## What is it?
 A rpg game
-It can be played on (itch.io)[https://fossilkeeper24.itch.io/the-quest-to-the-queen]
+It can be played on [itch.io](https://fossilkeeper24.itch.io/the-quest-to-the-queen)
 
 ## Synopsis
 Princess Selene of Blue Moon is deeply entranced by Queen Ophelia of the Rose Paradise and desires to sway the Queen to be in love with her however when Selene’s gift of a rose gold locket gets stolen by an evil witch, Princess Selene must defeat the fallen women of the Rose Paradise to reach the Queen.

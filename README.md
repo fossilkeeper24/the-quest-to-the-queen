@@ -3,6 +3,7 @@ thanks to girls got game game jam for hosting the game jam
 
 ## What is it?
 A rpg game
+
 It can be played on [itch.io](https://fossilkeeper24.itch.io/the-quest-to-the-queen)
 
 ## Synopsis
@@ -28,4 +29,5 @@ Bear in mind that when you switch scenes in the game it sends you back to the st
 
 ## Next steps
 Fix the bugs... 
+
 Also make the game more interactive by providing alternate storylines to pursue!
